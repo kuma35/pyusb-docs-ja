@@ -64,10 +64,10 @@ gettext_compact = False
 master_doc = 'index'
 
 # for autoapi
-extensions.append('autoapi.extension')
-autoapi_type = 'python'
-autoapi_dirs = ['../usb',]
+# extensions.append('autoapi.extension')
+# autoapi_type = 'python'
+# autoapi_dirs = ['../usb',]
 
 # Once you have built your documentation with this option turned on,
 # you can disable AutoAPI altogether from your project.
-autoapi_keep_files = True
+# autoapi_keep_files = True
