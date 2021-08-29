@@ -19,7 +19,7 @@ Platform neutrality:
     libusb 1.0, libusb 0.1 and OpenUSB.  You can write your own backend if you
     desire to.
 Portability:
-    PyUSB should run on any platform with Python >= 2.4, ctypes_ and at least
+    PyUSB should run on any platform with Python >= 3.6, ctypes_ and at least
     one of the supported builtin backends.
 Easiness:
     Communicating with an USB_ device has never been so easy! USB is a complex
@@ -179,8 +179,8 @@ What happened? Well, it is time for a little explanation... ``find`` has a
 parameter called ``find_all`` that defaults to False. When it is false [#]_,
 ``find`` will return the first device found that matches the specified criteria
 (more on that soon). If you give it a *true* value, ``find`` will instead
-return a list with all devices matching the criteria.  That's it! Simple, isn't
-it?
+return an iterator of all devices that match the criteria.  That's it! Simple,
+isn't it?
 
 Finished? No! I have not told you the whole history: many devices actually put
 their class information in the Interface Descriptor_ instead of the Device
@@ -548,8 +548,8 @@ device already claimed the interface, it does nothing.  In a similar way,
 ``release_interface`` will release the specified interface if it is claimed.
 If the interface is not claimed, it does nothing. You can use manual interface
 claim to solve the `configuration selection problem
-<http://libusb.sourceforge.net/api-1.0/caveats.html>`__ described in the
-libusb_ documentation.
+<http://libusb.sourceforge.net/api-1.0/libusb_caveats.html#configsel>`__
+described in the libusb_ documentation.
 
 If you want to free all resources allocated by the device object (including
 interfaces claimed), you can use the ``dispose_resources`` function. It

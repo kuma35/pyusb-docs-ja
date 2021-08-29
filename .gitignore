@@ -5,9 +5,11 @@ MANIFEST
 dist
 .tox
 *.egg-info
+usb/_version.py
 venv
 *~
 *.mo
 docs/_build/doctrees
 docs/_build/gettext/.doctrees
 docs/_build/html
+
