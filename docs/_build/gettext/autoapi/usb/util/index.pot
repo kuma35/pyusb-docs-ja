@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pyusb
+# This file is distributed under the same license as the pyusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pyusb \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-29 09:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../autoapi/usb/util/index.rst:2
+msgid ":py:mod:`usb.util`"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:6
+msgid "usb.util - Utility functions."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:8
+msgid "This module exports:"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:10
+msgid "endpoint_address - return the endpoint absolute address."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:11
+msgid "endpoint_direction - return the endpoint transfer direction."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:12
+msgid "endpoint_type - return the endpoint type"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:13
+msgid "ctrl_direction - return the direction of a control transfer"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:14
+msgid "build_request_type - build a bmRequestType field of a control transfer."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:15
+msgid "find_descriptor - find an inner descriptor."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:16
+msgid "claim_interface - explicitly claim an interface."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:17
+msgid "release_interface - explicitly release an interface."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:18
+msgid "dispose_resources - release internal resources allocated by the object."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:19
+msgid "get_langids - retrieve the list of supported string languages from the device."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:20
+msgid "get_string - retrieve a string descriptor from the device."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:25
+msgid "Module Contents"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:29
+msgid "Functions"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:31
+msgid "usb.util.endpoint_address"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:32
+msgid "usb.util.endpoint_direction"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:33
+msgid "usb.util.endpoint_type"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:34
+msgid "usb.util.ctrl_direction"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:35
+msgid "usb.util.build_request_type"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:36
+msgid "usb.util.create_buffer"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:37
+msgid "usb.util.find_descriptor"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:38
+msgid "usb.util.claim_interface"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:39
+msgid "usb.util.release_interface"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:40
+msgid "usb.util.dispose_resources"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:41
+msgid "usb.util.get_langids"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:42
+msgid "usb.util.get_string"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:47
+msgid "Attributes"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:211
+msgid "Return the endpoint absolute address."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:213
+msgid "The address parameter is the bEndpointAddress field of the endpoint descriptor."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:219
+msgid "Return the endpoint direction."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:221
+msgid "The address parameter is the bEndpointAddress field of the endpoint descriptor. The possible return values are ENDPOINT_OUT or ENDPOINT_IN."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:228
+msgid "Return the transfer type of the endpoint."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:230
+msgid "The bmAttributes parameter is the bmAttributes field of the endpoint descriptor. The possible return values are: ENDPOINT_TYPE_CTRL, ENDPOINT_TYPE_ISO, ENDPOINT_TYPE_BULK or ENDPOINT_TYPE_INTR."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:238
+msgid "Return the direction of a control request."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:240
+msgid "The bmRequestType parameter is the value of the bmRequestType field of a control transfer. The possible return values are CTRL_OUT or CTRL_IN."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:247
+msgid "Build a bmRequestType field for control requests."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:249
+msgid "These is a conventional function to build a bmRequestType for a control request."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:252
+msgid "The direction parameter can be CTRL_OUT or CTRL_IN. The type parameter can be CTRL_TYPE_STANDARD, CTRL_TYPE_CLASS, CTRL_TYPE_VENDOR or CTRL_TYPE_RESERVED values. The recipient can be CTRL_RECIPIENT_DEVICE, CTRL_RECIPIENT_INTERFACE, CTRL_RECIPIENT_ENDPOINT or CTRL_RECIPIENT_OTHER."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:258
+msgid "Return the bmRequestType value."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:263
+msgid "Create a buffer to be passed to a read function."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:265
+msgid "A read function may receive an out buffer so the data is read inplace and the object can be reused, avoiding the overhead of creating a new object at each new read call. This function creates a compatible sequence buffer of the given length."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:274
+msgid "Find an inner descriptor."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:276
+msgid "find_descriptor works in the same way as the core.find() function does, but it acts on general descriptor objects. For example, suppose you have a Device object called dev and want a Configuration of this object with its bConfigurationValue equals to 1, the code would be like so:"
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:284
+msgid "You can use any field of the Descriptor as a match criteria, and you can supply a customized match just like core.find() does. The find_descriptor function also accepts the find_all parameter to get an iterator instead of just one descriptor."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:292
+msgid "Explicitly claim an interface."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:294
+msgid "PyUSB users normally do not have to worry about interface claiming, as the library takes care of it automatically. But there are situations where you need deterministic interface claiming. For these uncommon cases, you can use claim_interface."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:299
+msgid "If the interface is already claimed, either through a previously call to claim_interface or internally by the device object, nothing happens."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:305
+msgid "Explicitly release an interface."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:307
+msgid "This function is used to release an interface previously claimed, either through a call to claim_interface or internally by the device object."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:311
+msgid "Normally, you do not need to worry about claiming policies, as the device object takes care of it automatically."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:317
+msgid "Release internal resources allocated by the object."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:319
+msgid "Sometimes you need to provide deterministic resources freeing, for example to allow another application to talk to the device. As Python does not provide deterministic destruction, this function releases all internal resources allocated by the device, like device handle and interface policy."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:326
+msgid "After calling this function, you can continue using the device object normally. If the resources will be necessary again, it will be allocated automatically."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:333
+msgid "Retrieve the list of supported Language IDs from the device."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:335
+msgid "Most client code should not call this function directly, but instead use the langids property on the Device object, which will call this function as needed and cache the result."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:339
+msgid "USB LANGIDs are 16-bit integers familiar to Windows developers, where for example instead of en-US you say 0x0409. See the file USB_LANGIDS.pdf somewhere on the usb.org site for a list, which does not claim to be complete. It requires \"system software must allow the enumeration and selection of LANGIDs that are not currently on this list.\" It also requires \"system software should never request a LANGID not defined in the LANGID code array (string index = 0) presented by a device.\" Client code can check this tuple before issuing string requests for a specific language ID."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:348
+msgid "dev is the Device object whose supported language IDs will be retrieved."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:350
+msgid "The return value is a tuple of integer LANGIDs, possibly empty if the device does not support strings at all (which USB 3.1 r1.0 section 9.6.9 allows). In that case client code should not request strings at all."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:354
+msgid "A USBError may be raised from this function for some devices that have no string support, instead of returning an empty tuple. The accessor for the langids property on Device catches that case and supplies an empty tuple, so client code can ignore this detail by using the langids property instead of directly calling this function."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:363
+msgid "Retrieve a string descriptor from the device."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:365
+msgid "dev is the Device object which the string will be read from."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:367
+msgid "index is the string descriptor index and langid is the Language ID of the descriptor. If langid is omitted, the string descriptor of the first Language ID will be returned."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:371
+msgid "Zero is never the index of a real string. The USB spec allows a device to use zero in a string index field to indicate that no string is provided. So the caller does not have to treat that case specially, this function returns None if passed an index of zero, and generates no traffic to the device."
+msgstr ""
+
+#: ../../autoapi/usb/util/index.rst:377
+msgid "The return value is the unicode string present in the descriptor, or None if the requested index was zero."
+msgstr ""

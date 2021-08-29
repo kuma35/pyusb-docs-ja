@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pyusb
+# This file is distributed under the same license as the pyusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pyusb \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-29 09:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../faq.rst:2
+msgid "FAQ"
+msgstr ""
+
+#: ../../faq.rst:5
+msgid "How do I fix \"No backend available\" errors?"
+msgstr ""
+
+#: ../../faq.rst:7
+msgid "Generally, there are four possible causes for this problem:"
+msgstr ""
+
+#: ../../faq.rst:9
+msgid "You didn't install libusb library."
+msgstr ""
+
+#: ../../faq.rst:10
+msgid "Your libusb library isn't in the standard shared library paths."
+msgstr ""
+
+#: ../../faq.rst:11
+msgid "Your libusb version is too old."
+msgstr ""
+
+#: ../../faq.rst:12
+msgid "Your PyUSB version is too old."
+msgstr ""
+
+#: ../../faq.rst:14
+msgid "To debug what's wrong, run the following script in your environment::"
+msgstr ""
+
+#: ../../faq.rst:21
+msgid "This will print debug messages to the console. If you still have problems to figure out what's going on, please ask for help in the mailing list, providing the debug output."
+msgstr ""
+
+#: ../../faq.rst:26
+msgid "How do I install libusb on Windows?"
+msgstr ""
+
+#: ../../faq.rst:28
+msgid "To install either libusb_ or libusb-win32_ on Windows, please use zadig_."
+msgstr ""
+
+#: ../../faq.rst:35
+msgid "How do I enforce a backend?"
+msgstr ""
+
+#: ../../faq.rst:37
+msgid "Here is an example for the *libusb1* backend::"
+msgstr ""
+
+#: ../../faq.rst:45
+msgid "How can I pass the libusb library path to the backend?"
+msgstr ""
+
+#: ../../faq.rst:47
+msgid "Check the *Specify libraries by hand* section in the tutorial_."
+msgstr ""
+
+#: ../../faq.rst:52
+msgid "How (not) to call set_configuration() on a device already configured with the selected configuration?"
+msgstr ""
+
+#: ../../faq.rst:54
+msgid "Typically ``set_configuration()`` is called during device initialization. The `libusb documentation`_ on ``libusb_set_configuration()`` states:"
+msgstr ""
+
+#: ../../faq.rst:58
+msgid "If you call this function on a device already configured with the selected configuration, then this function will act as a lightweight device reset: it will issue a SET_CONFIGURATION request using the current configuration, causing most USB-related device state to be reset (altsetting reset to zero, endpoint halts cleared, toggles reset)."
+msgstr ""
+
+#: ../../faq.rst:60
+msgid "Calling ``write()`` subsequently will therefore result in a timeout error."
+msgstr ""
+
+#: ../../faq.rst:62
+msgid "One solution to this behaviour is to consider the currently active configuration, as described in the `configuration selection and handling`_. \"If the configuration we want is already active, then we don't have to select any configuration\"::"
+msgstr ""

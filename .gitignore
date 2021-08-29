@@ -5,3 +5,7 @@ MANIFEST
 dist
 .tox
 *.egg-info
+venv
+*~
+docs/_build/doctrees
+docs/_build/html
