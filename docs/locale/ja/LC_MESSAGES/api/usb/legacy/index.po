@@ -1,0 +1,553 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, pyusb
+# This file is distributed under the same license as the pyusb-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pyusb-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"PO-Revision-Date: 2020-05-02 04:36+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../api/usb/legacy/index.rst:2
+msgid ":py:mod:`usb.legacy`"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:8
+#, fuzzy
+#| msgid "Module contents"
+msgid "Module Contents"
+msgstr "モジュール内容"
+
+#: ../../api/usb/legacy/index.rst:11
+msgid "Classes"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:13
+#, fuzzy
+#| msgid "usb.legacy module"
+msgid "usb.legacy.Endpoint"
+msgstr "usb.legacy モジュール"
+
+#: ../../api/usb/legacy/index.rst:14
+msgid "usb.legacy.Interface"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:15
+msgid "usb.legacy.Configuration"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:16
+#, fuzzy
+#| msgid "usb.legacy module"
+msgid "usb.legacy.DeviceHandle"
+msgstr "usb.legacy モジュール"
+
+#: ../../api/usb/legacy/index.rst:17
+#, fuzzy
+#| msgid "usb.legacy module"
+msgid "usb.legacy.Device"
+msgstr "usb.legacy モジュール"
+
+#: ../../api/usb/legacy/index.rst:18
+#, fuzzy
+#| msgid "usb.legacy module"
+msgid "usb.legacy.Bus"
+msgstr "usb.legacy モジュール"
+
+#: ../../api/usb/legacy/index.rst:22
+msgid "Functions"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:24
+#, fuzzy
+#| msgid "usb.legacy module"
+msgid "usb.legacy.busses"
+msgstr "usb.legacy モジュール"
+
+#: ../../api/usb/legacy/index.rst:28
+msgid "Attributes"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:327 ../../api/usb/legacy/index.rst:334
+#: ../../api/usb/legacy/index.rst:341 ../../api/usb/legacy/index.rst:494
+#: ../../api/usb/legacy/index.rst:508
+msgid "Bases: :py:obj:`object`"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:329
+msgid "Endpoint descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:336
+msgid "Interface descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:343
+msgid "Configuration descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:348
+#, fuzzy
+#| msgid "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
+msgid "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
+msgstr "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
+
+#: ../../api/usb/legacy/index.rst:355
+msgid "Perform a bulk write request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:357 ../../api/usb/legacy/index.rst:369
+#: ../../api/usb/legacy/index.rst:380 ../../api/usb/legacy/index.rst:392
+#: ../../api/usb/legacy/index.rst:419 ../../api/usb/legacy/index.rst:444
+msgid "endpoint number."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:358 ../../api/usb/legacy/index.rst:381
+msgid "sequence data buffer to write. This parameter can be any sequence type."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:360 ../../api/usb/legacy/index.rst:371
+#: ../../api/usb/legacy/index.rst:383 ../../api/usb/legacy/index.rst:394
+#: ../../api/usb/legacy/index.rst:411
+msgid "operation timeout in milliseconds. (default: 100)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:362 ../../api/usb/legacy/index.rst:385
+#: ../../api/usb/legacy/index.rst:412
+msgid "the number of bytes written."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:367
+msgid "Performs a bulk read request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:370 ../../api/usb/legacy/index.rst:393
+msgid "number of bytes to read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:373 ../../api/usb/legacy/index.rst:396
+msgid "a tuple with the data read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:378
+msgid "Perform a interrupt write request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:390
+msgid "Performs a interrupt read request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:401
+msgid "Perform a control request to the default control pipe on a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:403
+msgid ""
+"specifies the direction of data flow, the type of request, and the recipient."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:405
+msgid "specifies the request."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:406
+msgid ""
+"if the transfer is a write transfer, buffer is a sequence with the transfer "
+"data, otherwise, buffer is the number of bytes to read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:409 ../../api/usb/legacy/index.rst:410
+msgid "specific information to pass to the device. (default: 0)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:417
+msgid "Clears any halt status on the specified endpoint."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:424
+msgid "Claims the interface with the Operating System."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:426 ../../api/usb/legacy/index.rst:488
+msgid "interface number or an Interface object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:431
+msgid "Release an interface previously claimed with claimInterface."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:436
+msgid ""
+"Reset the specified device by sending a RESET down the port it is connected "
+"to."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:442
+msgid "Reset all states for the specified endpoint."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:449
+msgid "Set the active configuration of a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:451
+msgid "a configuration value or a Configuration object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:456
+msgid "Sets the active alternate setting of the current interface."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:458
+msgid "an alternate setting number or an Interface object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:464
+msgid "Retrieve the string descriptor specified by index"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:464
+msgid "and langid from a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:466
+msgid "index of descriptor in the device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:467
+msgid "number of bytes of the string (ignored)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:468
+msgid "Language ID. If it is omitted, the first language will be used."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:474
+msgid ""
+"Retrieves a descriptor from the device identified by the type and index of "
+"the descriptor."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:477
+msgid "descriptor type."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:478
+msgid "index of the descriptor."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:479
+msgid "descriptor length."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:480
+msgid "ignored."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:486
+msgid "Detach a kernel driver from the interface (if one is attached,"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:486
+msgid "we have permission and the operation is supported by the OS)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:496
+msgid "Device descriptor object"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:500
+msgid "Open the device for use."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:502
+#, fuzzy
+#| msgid "Device object."
+msgid "a DeviceHandle object"
+msgstr "Deviceオブジェクトです。"
+
+#: ../../api/usb/legacy/index.rst:510
+msgid "Bus object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:515
+msgid "a tuple with the usb busses."
+msgstr ""
+
+#~ msgid "usb package"
+#~ msgstr "usb パッケージ"
+
+#~ msgid "Subpackages"
+#~ msgstr "サブパッケージ"
+
+#~ msgid "Submodules"
+#~ msgstr "サブモジュール"
+
+#~ msgid "usb.control module"
+#~ msgstr "usb.control モジュール"
+
+#~ msgid "usb.control - USB standard control requests"
+#~ msgstr "usb.control - USB 標準制御要求(standard control requests)"
+
+#~ msgid "This module exports:"
+#~ msgstr "本モジュールからは以下がエスクポートされます:"
+
+#~ msgid ""
+#~ "get_status - get recipeint status clear_feature - clear a recipient "
+#~ "feature set_feature - set a recipient feature get_descriptor - get a "
+#~ "device descriptor set_descriptor - set a device descriptor "
+#~ "get_configuration - get a device configuration set_configuration - set a "
+#~ "device configuration get_interface - get a device interface set_interface "
+#~ "- set a device interface"
+#~ msgstr ""
+#~ "get_status - 受信者(recipeint)ステータスの取得、 clear_feature - 受信者"
+#~ "(recipient)機能(feature)のクリア、 set_feature - 受信者(recipient)機能"
+#~ "(feature)の設定、 get_descriptor - デバイス・デスクリプタ取得、 "
+#~ "set_descriptor - デバイス・デスクリプタ設定、 get_configuration - デバイス"
+#~ "構成(configuration)の取得、 set_configuration - デバイス構成"
+#~ "(configuration)の設定 get_interface - デバイス・インターフェイス取得、 "
+#~ "set_interface - デバイス・インターフェイス設定"
+
+#~ msgid "Return the status for the specified recipient."
+#~ msgstr "指定の受信者(recipient)のステータスを返す。"
+
+#~ msgid "dev is the Device object to which the request will be sent to."
+#~ msgstr "dev は、リクエストの送信先となるデバイス・オブジェクトです。"
+
+#~ msgid ""
+#~ "The recipient can be None (on which the status will be queried from the "
+#~ "device), an Interface or Endpoint descriptors."
+#~ msgstr ""
+#~ "受信者(recipient)は、 None (デバイスからステータスが照会される) または "
+#~ "Interface または Endpoint デスクリプタにすることができます。"
+
+#~ msgid ""
+#~ "The status value is returned as an integer with the lower word being the "
+#~ "two bytes status value."
+#~ msgstr ""
+#~ "ステータス値は整数として返され、下位ワードは2バイトのステータス値からなり"
+#~ "ます。"
+
+#~ msgid "Clear/disable a specific feature."
+#~ msgstr "指定の機能(feature)をクリアまたは無効にします。"
+
+#~ msgid "feature is the feature you want to disable."
+#~ msgstr "featureには、あなたが無効にしたい機能(feature)を指定します。"
+
+#~ msgid "Set/enable a specific feature."
+#~ msgstr "指定の機能(feature)を設定または有効化します。"
+
+#~ msgid "feature is the feature you want to enable."
+#~ msgstr "featureにはあなたが有効にしたい機能(feature)を指定します。"
+
+#~ msgid "Return the specified descriptor."
+#~ msgstr "指定のデスクリプタを返す。"
+
+#~ msgid "desc_size is the descriptor size."
+#~ msgstr "desc_sizeはデスクリプタのサイズを指定します。"
+
+#~ msgid ""
+#~ "desc_type and desc_index are the descriptor type and index, respectively. "
+#~ "wIndex index is used for string descriptors and represents the Language "
+#~ "ID. For other types of descriptors, it is zero."
+#~ msgstr ""
+#~ "desc_typeとdesc_indexは、それぞれデスクリプタのタイプとインデックスです。 "
+#~ "wIndexインデックスは文字列デスクリプタに使用され、言語IDを表します。文字列"
+#~ "デスクリプタ以外タイプの記述子の場合、wIndexはゼロです。"
+
+#~ msgid "Update an existing descriptor or add a new one."
+#~ msgstr ""
+#~ "存在するデスクリプタを更新するか、または新しいデスクリプタを追加します。"
+
+#~ msgid ""
+#~ "The desc parameter is the descriptor to be sent to the device. desc_type "
+#~ "and desc_index are the descriptor type and index, respectively. wIndex "
+#~ "index is used for string descriptors and represents the Language ID. For "
+#~ "other types of descriptors, it is zero."
+#~ msgstr ""
+#~ "descほげほげなパラメータ達は、デバイスに送信されるデスクリプタです。 "
+#~ "desc_typeとdesc_indexは、それぞれデスクリプタのタイプとインデックスです。 "
+#~ "wIndexインデックスは文字列デスクリプタに使用され、言語IDを表します。 文字"
+#~ "列デスクリプタ以外のタイプのデスクリプタの場合、wIndexはゼロです。"
+
+#~ msgid "Get the current active configuration of the device."
+#~ msgstr ""
+#~ "デバイスの、当座(current)でアクティブな構成(configuration)を取得します。"
+
+#~ msgid ""
+#~ "This function differs from the Device.get_active_configuration method "
+#~ "because the later may use cached data, while this function always does a "
+#~ "device request."
+#~ msgstr ""
+#~ "キャッシュされたデータを使用する可能性がある Device."
+#~ "get_active_configuration メソッドとは異なり、この関数は常にデバイス・リク"
+#~ "エストを実行します。"
+
+#~ msgid "Set the current device configuration."
+#~ msgstr "当座(current)とする構成(configuration)を設定します。"
+
+#~ msgid "Get the current alternate setting of the interface."
+#~ msgstr ""
+#~ "インターフェイスの代替設定(alternate setting)の当座(current)を取得します。"
+
+#~ msgid "Set the alternate setting of the interface."
+#~ msgstr "インターフェイスの代替設定(alternate setting)を設定します。"
+
+#~ msgid "usb.core module"
+#~ msgstr "usb.core モジュール"
+
+#~ msgid "usb.core - Core USB features."
+#~ msgstr "usb.core - コアUSB機能"
+
+#~ msgid ""
+#~ "Device - a class representing a USB device. Configuration - a class "
+#~ "representing a configuration descriptor. Interface - a class representing "
+#~ "an interface descriptor. Endpoint - a class representing an endpoint "
+#~ "descriptor. find() - a function to find USB devices. show_devices() - a "
+#~ "function to show the devices present."
+#~ msgstr ""
+#~ "Device - USBデバイスを表すクラス、 Configuration - 構成(configuration)デス"
+#~ "クリプタを表すクラス、 Interface - インターフェイス・デスクリプタを表すク"
+#~ "ラス、 Endpoint - エンドポイント・デスクリプタを表すクラス、 find() - USB"
+#~ "デバイスを探す関数、show_devices() - 存在するデバイスを表示する関数"
+
+#~ msgid ""
+#~ "This class contains all fields of the Device Descriptor according to the "
+#~ "USB Specification. You may access them as class properties.  For example, "
+#~ "to access the field bDescriptorType of the device descriptor, you can do "
+#~ "so:"
+#~ msgstr ""
+#~ "このクラスには、USB仕様に基づくデバイス・デスクリプタのすべてのフィールド"
+#~ "が含まれています。 あなたはそれらにクラスのプロパティとしてアクセスできま"
+#~ "す。 たとえば、デバイス・デスクリプタのフィールドbDescriptorTypeにアクセス"
+#~ "するには、次のようにします:"
+
+#~ msgid ""
+#~ "Additionally, the class provides methods to communicate with the "
+#~ "hardware. Typically, an application will first call the "
+#~ "set_configuration() method to put the device in a known configured state, "
+#~ "optionally call the set_interface_altsetting() to select the alternate "
+#~ "setting (if there is more than one) of the interface used, and call the "
+#~ "write() and read() methods to send and receive data, respectively."
+#~ msgstr ""
+#~ "さらに、クラスはハードウェアと通信するメソッドを提供します。 通常、アプリ"
+#~ "ケーションは最初にset_configuration()メソッドを呼び出してデバイスを既知の"
+#~ "構成済み状態(a known conifgured state)にし、代替設定が複数ある場合、オプ"
+#~ "ションでset_interface_altsetting()を呼び出して、使用するインターフェイスの"
+#~ "代替設定を選択し、 write() や read() メソッドでデータを送受信します。"
+
+#~ msgid "When working in a new hardware, the first try could be like this:"
+#~ msgstr "新しいハードウェアで作業する場合、最初の試行は次のようになります:"
+
+#~ msgid ""
+#~ "This sample finds the device of interest (myVendorId and myProductId "
+#~ "should be replaced by the corresponding values of your device), then "
+#~ "configures the device (by default, the configuration value is 1, which is "
+#~ "a typical value for most devices) and then writes some data to the "
+#~ "endpoint 0x01."
+#~ msgstr ""
+#~ "このサンプルでは、対象のデバイスを見つけ（myVendorIdおよびmyProductIdをデ"
+#~ "バイスの対応する値で置き換える必要があります）、デバイスを構成し（デフォル"
+#~ "トでは、構成値(configuration value)は1であり、ほとんどのデバイスの一般的な"
+#~ "値です）、エンドポイント0x01へデータを幾つか書き込みます。"
+
+#~ msgid ""
+#~ "Timeout values for the write, read and ctrl_transfer methods are "
+#~ "specified in miliseconds. If the parameter is omitted, Device."
+#~ "default_timeout value will be used instead. This property can be set by "
+#~ "the user at anytime."
+#~ msgstr ""
+#~ "書き込み、読み取り、およびctrl_transferメソッドのタイムアウト値はミリ秒単"
+#~ "位で指定します。このパラメーターを省略した場合、代わりにDevice."
+#~ "default_timeout値が使用されます。Device.default_timeoutプロパティは、ユー"
+#~ "ザがいつでも設定できます。"
+
+#~ msgid ""
+#~ "Re-attach an interface's kernel driver, which was previously detached "
+#~ "using detach_kernel_driver()."
+#~ msgstr ""
+#~ "以前にdetach_kernel_driver()を使って切り離し(detach)した、指定のインター"
+#~ "フェイスのカーネル・ドライバを再接続(re-attach)します。"
+
+#~ msgid ""
+#~ "The interface parameter is the device interface number to attach the "
+#~ "driver to."
+#~ msgstr ""
+#~ "interface パラメータは、ドライバを接続したい、デバイスのインターフェイス番"
+#~ "号を指定します。"
+
+#~ msgid "Return the backend being used by the device."
+#~ msgstr "そのデバイスが使っているバックエンドを返します。"
+
+#~ msgid "Clear the halt/stall condition for the endpoint ep."
+#~ msgstr "epに指定したエンドポイントの halt/stall 状態をクリアします。"
+
+#~ msgid "Return a tuple of the device configurations."
+#~ msgstr "そのデバイスの構成群をタプルで返します。"
+
+#~ msgid "Do a control transfer on the endpoint 0."
+#~ msgstr "エンドポイント0で制御転送(control transfer)を行います。"
+
+#~ msgid ""
+#~ "This method is used to issue a control transfer over the endpoint 0 "
+#~ "(endpoint 0 is required to always be a control endpoint)."
+#~ msgstr ""
+#~ "このメソッドは、エンドポイント0を介して制御転送を発行するために使用します"
+#~ "（エンドポイント0は常に制御エンドポイントである必要があります）。"
+
+#~ msgid ""
+#~ "The parameters bmRequestType, bRequest, wValue and wIndex are the same of "
+#~ "the USB Standard Control Request format."
+#~ msgstr ""
+#~ "パラメータbmRequestType、bRequest、wValue、wIndexは、USB標準制御要求"
+#~ "(Standard Control Request)フォーマットと同じです。"
+
+#~ msgid "usb.libloader module"
+#~ msgstr "usb.libloader モジュール"
+
+#~ msgid "usb.util module"
+#~ msgstr "usb.util モジュール"
+
+#~ msgid "usb.util - Utility functions."
+#~ msgstr "usb.util - ユーティリティ関数群。"
+
+#~ msgid "PyUSB - Easy USB access in Python"
+#~ msgstr "PyUSB - Pythonから簡単にUSBにアクセスできるようにします。"
+
+#~ msgid "This package exports the following modules and subpackages:"
+#~ msgstr "本パッケージはイカのモジュールとサブバッケージをエクスポートします:"
+
+#~ msgid ""
+#~ "core - the main USB implementation legacy - the compatibility layer with "
+#~ "0.x version backend - the support for backend implementations. control - "
+#~ "USB standard control requests. libloader - helper module for backend "
+#~ "library loading."
+#~ msgstr ""
+#~ "core - 主たるUSB実装、 legacy - 0.xバージョン利用者互換レイヤ、backend - "
+#~ "バックエンド実装のサポート、 control - USB標準制御要求(standard control "
+#~ "requests)、 libloader - バックエンドライブラリ読み込みのためのヘルパーモ"
+#~ "ジュール"
+
+#~ msgid ""
+#~ "Since version 1.0, main PyUSB implementation lives in the 'usb.core' "
+#~ "module. New applications are encouraged to use it."
+#~ msgstr ""
+#~ "バージョン1.0以降では、メインのPyUSB実装は「usb.core」モジュールにありま"
+#~ "す。 新しいアプリケーションではそれを使用することをお勧めします。"

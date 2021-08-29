@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pyusb
+# This file is distributed under the same license as the pyusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pyusb \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/usb/legacy/index.rst:2
+msgid ":py:mod:`usb.legacy`"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:8
+msgid "Module Contents"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:11
+msgid "Classes"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:13
+msgid "usb.legacy.Endpoint"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:14
+msgid "usb.legacy.Interface"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:15
+msgid "usb.legacy.Configuration"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:16
+msgid "usb.legacy.DeviceHandle"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:17
+msgid "usb.legacy.Device"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:18
+msgid "usb.legacy.Bus"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:22
+msgid "Functions"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:24
+msgid "usb.legacy.busses"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:28
+msgid "Attributes"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:327
+#: ../../api/usb/legacy/index.rst:334
+#: ../../api/usb/legacy/index.rst:341
+#: ../../api/usb/legacy/index.rst:494
+#: ../../api/usb/legacy/index.rst:508
+msgid "Bases: :py:obj:`object`"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:329
+msgid "Endpoint descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:336
+msgid "Interface descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:343
+msgid "Configuration descriptor object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:348
+msgid "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:355
+msgid "Perform a bulk write request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:357
+#: ../../api/usb/legacy/index.rst:369
+#: ../../api/usb/legacy/index.rst:380
+#: ../../api/usb/legacy/index.rst:392
+#: ../../api/usb/legacy/index.rst:419
+#: ../../api/usb/legacy/index.rst:444
+msgid "endpoint number."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:358
+#: ../../api/usb/legacy/index.rst:381
+msgid "sequence data buffer to write. This parameter can be any sequence type."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:360
+#: ../../api/usb/legacy/index.rst:371
+#: ../../api/usb/legacy/index.rst:383
+#: ../../api/usb/legacy/index.rst:394
+#: ../../api/usb/legacy/index.rst:411
+msgid "operation timeout in milliseconds. (default: 100)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+#: ../../api/usb/legacy/index.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:362
+#: ../../api/usb/legacy/index.rst:385
+#: ../../api/usb/legacy/index.rst:412
+msgid "the number of bytes written."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:367
+msgid "Performs a bulk read request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:370
+#: ../../api/usb/legacy/index.rst:393
+msgid "number of bytes to read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:373
+#: ../../api/usb/legacy/index.rst:396
+msgid "a tuple with the data read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:378
+msgid "Perform a interrupt write request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:390
+msgid "Performs a interrupt read request to the endpoint specified."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:401
+msgid "Perform a control request to the default control pipe on a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:403
+msgid "specifies the direction of data flow, the type of request, and the recipient."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:405
+msgid "specifies the request."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:406
+msgid "if the transfer is a write transfer, buffer is a sequence with the transfer data, otherwise, buffer is the number of bytes to read."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:409
+#: ../../api/usb/legacy/index.rst:410
+msgid "specific information to pass to the device. (default: 0)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:417
+msgid "Clears any halt status on the specified endpoint."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:424
+msgid "Claims the interface with the Operating System."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:426
+#: ../../api/usb/legacy/index.rst:488
+msgid "interface number or an Interface object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:431
+msgid "Release an interface previously claimed with claimInterface."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:436
+msgid "Reset the specified device by sending a RESET down the port it is connected to."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:442
+msgid "Reset all states for the specified endpoint."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:449
+msgid "Set the active configuration of a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:451
+msgid "a configuration value or a Configuration object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:456
+msgid "Sets the active alternate setting of the current interface."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:458
+msgid "an alternate setting number or an Interface object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:464
+msgid "Retrieve the string descriptor specified by index"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:464
+msgid "and langid from a device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:466
+msgid "index of descriptor in the device."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:467
+msgid "number of bytes of the string (ignored)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:468
+msgid "Language ID. If it is omitted, the first language will be used."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:474
+msgid "Retrieves a descriptor from the device identified by the type and index of the descriptor."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:477
+msgid "descriptor type."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:478
+msgid "index of the descriptor."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:479
+msgid "descriptor length."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:480
+msgid "ignored."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:486
+msgid "Detach a kernel driver from the interface (if one is attached,"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:486
+msgid "we have permission and the operation is supported by the OS)"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:496
+msgid "Device descriptor object"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:500
+msgid "Open the device for use."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:502
+msgid "a DeviceHandle object"
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:510
+msgid "Bus object."
+msgstr ""
+
+#: ../../api/usb/legacy/index.rst:515
+msgid "a tuple with the usb busses."
+msgstr ""

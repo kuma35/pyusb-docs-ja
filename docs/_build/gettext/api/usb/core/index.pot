@@ -1,0 +1,489 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pyusb
+# This file is distributed under the same license as the pyusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pyusb \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/usb/core/index.rst:2
+msgid ":py:mod:`usb.core`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:6
+msgid "usb.core - Core USB features."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:8
+msgid "This module exports:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:10
+msgid "Device - a class representing a USB device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:11
+msgid "Configuration - a class representing a configuration descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:12
+msgid "Interface - a class representing an interface descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:13
+msgid "Endpoint - a class representing an endpoint descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:14
+msgid "find() - a function to find USB devices."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:15
+msgid "show_devices() - a function to show the devices present."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:20
+msgid "Module Contents"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:23
+msgid "Classes"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:25
+msgid "usb.core.Endpoint"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:26
+msgid "usb.core.Interface"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:27
+msgid "usb.core.Configuration"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:28
+msgid "usb.core.Device"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:33
+msgid "Functions"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:35
+msgid "usb.core.find"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:36
+msgid "usb.core.show_devices"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:40
+msgid "Bases: :py:obj:`OSError`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:42
+msgid "Exception class for USB errors."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:44
+msgid "Backends must raise this exception when USB related errors occur.  The backend specific error code is available through the 'backend_error_code' member variable."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:51
+msgid "Bases: :py:obj:`USBError`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:53
+msgid "Exception class for connection timeout errors."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:55
+msgid "Backends must raise this exception when a call on a USB connection returns a timeout error code."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:61
+msgid "Bases: :py:obj:`ValueError`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:63
+msgid "Exception class when a valid backend is not found."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:68
+#: ../../api/usb/core/index.rst:132
+#: ../../api/usb/core/index.rst:186
+msgid "Bases: :py:obj:`object`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:70
+msgid "Represent an endpoint object."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:72
+msgid "This class contains all fields of the Endpoint Descriptor according to the USB Specification. You can access them as class properties. For example, to access the field bEndpointAddress of the endpoint descriptor, you can do so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:85
+#: ../../api/usb/core/index.rst:149
+#: ../../api/usb/core/index.rst:202
+msgid "Return repr(self)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:90
+#: ../../api/usb/core/index.rst:207
+msgid "Return str(self)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:95
+#: ../../api/usb/core/index.rst:405
+msgid "Write data to the endpoint."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:97
+msgid "The parameter data contains the data to be sent to the endpoint and timeout is the time limit of the operation. The transfer type and endpoint address are automatically inferred."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:101
+#: ../../api/usb/core/index.rst:416
+msgid "The method returns the number of bytes written."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:103
+msgid "For details, see the Device.write() method."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:108
+#: ../../api/usb/core/index.rst:421
+msgid "Read data from the endpoint."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:110
+msgid "The parameter size_or_buffer is either the number of bytes to read or an array object where the data will be put in and timeout is the time limit of the operation. The transfer type and endpoint address are automatically inferred."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:115
+msgid "The method returns either an array object or the number of bytes actually read."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:118
+msgid "For details, see the Device.read() method."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:123
+msgid "Clear the halt/status condition of the endpoint."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:134
+msgid "Represent an interface object."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:136
+msgid "This class contains all fields of the Interface Descriptor according to the USB Specification. You may access them as class properties. For example, to access the field bInterfaceNumber of the interface descriptor, you can do so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:154
+msgid "Show all information for the interface."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:159
+msgid "Return a tuple of the interface endpoints."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:164
+msgid "Set the interface alternate setting."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:169
+msgid "Iterate over all endpoints of the interface."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:174
+msgid "Return the Endpoint object in the given position."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:188
+msgid "Represent a configuration object."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:190
+msgid "This class contains all fields of the Configuration Descriptor according to the USB Specification. You may access them as class properties.  For example, to access the field bConfigurationValue of the configuration descriptor, you can do so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:212
+msgid "Return a tuple of the configuration interfaces."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:217
+msgid "Set this configuration as the active one."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:222
+msgid "Iterate over all interfaces of the configuration."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:227
+msgid "Return the Interface object in the given position."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:229
+msgid "index is a tuple of two values with interface index and alternate setting index, respectivally. Example:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:244
+msgid "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:246
+msgid "Device object."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:248
+msgid "This class contains all fields of the Device Descriptor according to the USB Specification. You may access them as class properties.  For example, to access the field bDescriptorType of the device descriptor, you can do so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:257
+msgid "Additionally, the class provides methods to communicate with the hardware. Typically, an application will first call the set_configuration() method to put the device in a known configured state, optionally call the set_interface_altsetting() to select the alternate setting (if there is more than one) of the interface used, and call the write() and read() methods to send and receive data, respectively."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:264
+msgid "When working in a new hardware, the first try could be like this:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:271
+msgid "This sample finds the device of interest (myVendorId and myProductId should be replaced by the corresponding values of your device), then configures the device (by default, the configuration value is 1, which is a typical value for most devices) and then writes some data to the endpoint 0x01."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:276
+msgid "Timeout values for the write, read and ctrl_transfer methods are specified in miliseconds. If the parameter is omitted, Device.default_timeout value will be used instead. This property can be set by the user at anytime."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:293
+msgid "Return a tuple of the device configurations."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:299
+msgid "Return the USB device's supported language ID codes."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:301
+msgid "These are 16-bit codes familiar to Windows developers, where for example instead of en-US you say 0x0409. USB_LANGIDS.pdf on the usb.org developer site for more info. String requests using a LANGID not in this array should not be sent to the device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:306
+#: ../../api/usb/core/index.rst:315
+#: ../../api/usb/core/index.rst:324
+#: ../../api/usb/core/index.rst:339
+msgid "This property will cause some USB traffic the first time it is accessed and cache the resulting value for future use."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:313
+msgid "Return the USB device's serial number string descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:322
+msgid "Return the USB device's product string descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:331
+msgid "Return the parent device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:337
+msgid "Return the USB device's manufacturer string descriptor."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:346
+msgid "Return the backend being used by the device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:351
+msgid "Set the active configuration."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:353
+msgid "The configuration parameter is the bConfigurationValue field of the configuration you want to set as active. If you call this method without parameter, it will use the first configuration found.  As a device hardly ever has more than one configuration, calling the method without arguments is enough to get the device ready."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:362
+msgid "Return a Configuration object representing the current configuration set."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:368
+msgid "Set the alternate setting for an interface."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:370
+msgid "When you want to use an interface and it has more than one alternate setting, you should call this method to select the appropriate alternate setting. If you call the method without one or the two parameters, it will be selected the first one found in the Device in the same way of the set_configuration method."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:376
+msgid "Commonly, an interface has only one alternate setting and this call is not necessary. For most devices, either it has more than one alternate setting or not, it is not harmful to make a call to this method with no arguments, as devices will silently ignore the request when there is only one alternate setting, though the USB Spec allows devices with no additional alternate setting return an error to the Host in response to a SET_INTERFACE request."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:384
+msgid "If you are in doubt, you may want to call it with no arguments wrapped by a try/except clause:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:395
+msgid "Clear the halt/stall condition for the endpoint ep."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:400
+msgid "Reset the device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:407
+msgid "This method is used to send data to the device. The endpoint parameter corresponds to the bEndpointAddress member whose endpoint you want to communicate with."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:411
+msgid "The data parameter should be a sequence like type convertible to the array type (see array module)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:414
+#: ../../api/usb/core/index.rst:429
+msgid "The timeout is specified in miliseconds."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:423
+msgid "This method is used to receive data from the device. The endpoint parameter corresponds to the bEndpointAddress member whose endpoint you want to communicate with. The size_or_buffer parameter either tells how many bytes you want to read or supplies the buffer to receive the data (it *must* be an object of the type array)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:431
+msgid "If the size_or_buffer parameter is the number of bytes to read, the method returns an array object with the data read. If the size_or_buffer parameter is an array object, it returns the number of bytes actually read."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:439
+msgid "Do a control transfer on the endpoint 0."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:441
+msgid "This method is used to issue a control transfer over the endpoint 0 (endpoint 0 is required to always be a control endpoint)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:444
+msgid "The parameters bmRequestType, bRequest, wValue and wIndex are the same of the USB Standard Control Request format."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:447
+msgid "Control requests may or may not have a data payload to write/read. In cases which it has, the direction bit of the bmRequestType field is used to infer the desired request direction. For host to device requests (OUT), data_or_wLength parameter is the data payload to send, and it must be a sequence type convertible to an array object. In this case, the return value is the number of bytes written in the data payload. For device to host requests (IN), data_or_wLength is either the wLength parameter of the control request specifying the number of bytes to read in data payload, and the return value is an array object with data read, or an array object which the data will be read to, and the return value is the number of bytes read."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:463
+msgid "Determine if there is kernel driver associated with the interface."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:465
+msgid "If a kernel driver is active, the object will be unable to perform I/O."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:468
+msgid "The interface parameter is the device interface number to check."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:473
+msgid "Detach a kernel driver."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:475
+msgid "If successful, you will then be able to perform I/O."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:477
+msgid "The interface parameter is the device interface number to detach the driver from."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:483
+msgid "Re-attach an interface's kernel driver, which was previously detached using detach_kernel_driver()."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:486
+msgid "The interface parameter is the device interface number to attach the driver to."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:492
+msgid "Iterate over all configurations of the device."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:497
+msgid "Return the Configuration object in the given position."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:521
+msgid "Find an USB device and return it."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:523
+msgid "find() is the function used to discover USB devices.  You can pass as arguments any combination of the USB Device Descriptor fields to match a device. For example:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:531
+msgid "will return the Device object for the device with idVendor field equals to 0x3f4 and idProduct equals to 0x2009."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:534
+msgid "If there is more than one device which matchs the criteria, the first one found will be returned. If a matching device cannot be found the function returns None. If you want to get all devices, you can set the parameter find_all to True, then find will return an iterator with all matched devices. If no matching device is found, it will return an empty iterator. Example:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:545
+msgid "This call will get all the USB printers connected to the system.  (actually may be not, because some devices put their class information in the Interface Descriptor)."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:549
+msgid "You can also use a customized match criteria:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:555
+msgid "A more accurate printer finder using a customized match would be like so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:572
+msgid "Now even if the device class code is in the interface descriptor the printer will be found."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:575
+msgid "You can combine a customized match with device descriptor fields. In this case, the fields must match and the custom_match must return True. In the our previous example, if we would like to get all printers belonging to the manufacturer 0x3f4, the code would be like so:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:584
+msgid "If you want to use find as a 'list all devices' function, just call it with find_all = True:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:587
+msgid "devices = list(find(find_all=True))"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:589
+msgid "Finally, you can pass a custom backend to the find function:"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:591
+msgid "find(backend = MyBackend())"
+msgstr ""
+
+#: ../../api/usb/core/index.rst:593
+msgid "PyUSB has builtin backends for libusb 0.1, libusb 1.0 and OpenUSB.  If you do not supply a backend explicitly, find() function will select one of the predefineds backends according to system availability."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:597
+msgid "Backends are explained in the usb.backend module."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:602
+msgid "Show information about connected devices."
+msgstr ""
+
+#: ../../api/usb/core/index.rst:604
+msgid "The verbose flag sets to verbose or not. \\*\\*kwargs are passed directly to the find() function."
+msgstr ""

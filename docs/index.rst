@@ -13,7 +13,7 @@ Welcome to pyusb's documentation!
    README
    tutorial
    faq
-   autoapi/index
+   api/index
 
 Indices and tables
 ==================
