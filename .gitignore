@@ -7,5 +7,6 @@ dist
 *.egg-info
 venv
 *~
+*.mo
 docs/_build/doctrees
 docs/_build/html
