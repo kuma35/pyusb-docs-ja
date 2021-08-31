@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 09:22+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "The PyUSB module provides for Python easy access to the host machine's Un
 msgstr ""
 
 #: ../../README.rst:11
-msgid "Until 0.4 version, PyUSB used to be a thin wrapper over libusb. With 1.0 version, things changed considerably. Now PyUSB is an API rich, backend neutral Python USB module easy to use."
+msgid "Until 0.4 version, PyUSB used to be a thin wrapper over libusb. With the 1.0 version, things changed considerably: now PyUSB is an API rich, backend neutral Python USB module easy to use."
 msgstr ""
 
 #: ../../README.rst:15
@@ -41,7 +41,7 @@ msgid "You can also find a tutorial at `docs/tutorial.rst <https://github.com/py
 msgstr ""
 
 #: ../../README.rst:21
-msgid "PyUSB is being developed and tested on Linux and Windows, but it should work fine on any platform running Python >= 2.4, ctypes and at least one of the builtin backends."
+msgid "PyUSB is being developed and tested on Linux and Windows, but it should work fine on any platform running Python >= 3.6, ctypes and at least one of the builtin backends."
 msgstr ""
 
 #: ../../README.rst:25
@@ -49,29 +49,21 @@ msgid "PyUSB supports libusb 1.0, libusb 0.1 and OpenUSB, but the user does not 
 msgstr ""
 
 #: ../../README.rst:28
-msgid "If you have any question about PyUSB, you can use the PyUSB mailing list hosted in the SourceForge. In the `PyUSB website <https://pyusb.github.io/pyusb/>`_ you can find instructions on how to subscribe to the mailing list."
+msgid "If you have any question about PyUSB, consult the FAQ at `docs/faq.rst <https://github.com/pyusb/pyusb/blob/master/docs/faq.rst>`_ or  the PyUSB mailing list hosted in the SourceForge. In the `PyUSB website <https://pyusb.github.io/pyusb/>`_ you can find instructions on how to subscribe to the mailing list."
 msgstr ""
 
-#: ../../README.rst:33
+#: ../../README.rst:34
 msgid "Installing"
 msgstr ""
 
-#: ../../README.rst:35
+#: ../../README.rst:36
 msgid "PyUSB is installed through `pip <https://pypi.python.org/pypi/pyusb>`_:"
 msgstr ""
 
-#: ../../README.rst:37
+#: ../../README.rst:38
 msgid "pip install pyusb"
 msgstr ""
 
-#: ../../README.rst:39
-msgid "Remember that you need libusb (1.0 or 0.1) or OpenUSB running on your system. For Windows users, libusb 1.0 DLLs are provided in the `releases <https://github.com/libusb/libusb/releases>`_ (see 7z archives).  Check the libusb website for updates (http://www.libusb.info)."
-msgstr ""
-
-#: ../../README.rst:45
-msgid "Reporting bugs/Submitting patches"
-msgstr ""
-
-#: ../../README.rst:47
-msgid "Some people have been sending patches and reporting bugs directly at my email. Please, do it through `github <https://github.com/pyusb/pyusb>`_, I had a hard time tracking their names to put them in the acknowledgments file."
+#: ../../README.rst:40
+msgid "Remember that you need libusb (1.0 or 0.1) or OpenUSB running on your system. For Windows users, libusb 1.0 DLLs are provided in the `releases <https://github.com/libusb/libusb/releases>`_ (see 7z archives).  Check the libusb website for updates (http://www.libusb.info). For MacOS users, ``brew install libusb`` satisfies the requirement for running correctly."
 msgstr ""

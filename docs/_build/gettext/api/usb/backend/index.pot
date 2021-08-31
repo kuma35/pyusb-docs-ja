@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,7 +185,7 @@ msgid "Set the interface alternate setting."
 msgstr ""
 
 #: ../../api/usb/backend/index.rst:207
-msgid "This method should only be called when the interface has more than one alternate setting. The dev_handle is the value returned by the open_device() method. intf and altsetting are respectivelly the bInterfaceNumber and bAlternateSetting fields of the related interface."
+msgid "This method should only be called when the interface has more than one alternate setting. The dev_handle is the value returned by the open_device() method. intf and altsetting are respectively the bInterfaceNumber and bAlternateSetting fields of the related interface."
 msgstr ""
 
 #: ../../api/usb/backend/index.rst:215
@@ -243,7 +243,7 @@ msgid "Perform an interrupt write."
 msgstr ""
 
 #: ../../api/usb/backend/index.rst:281
-msgid "Perform an interrut read."
+msgid "Perform an interrupt read."
 msgstr ""
 
 #: ../../api/usb/backend/index.rst:283

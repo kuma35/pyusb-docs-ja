@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 09:22+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "Portability:"
 msgstr ""
 
 #: ../../tutorial.rst:22
-msgid "PyUSB should run on any platform with Python >= 2.4, ctypes_ and at least one of the supported builtin backends."
+msgid "PyUSB should run on any platform with Python >= 3.6, ctypes_ and at least one of the supported builtin backends."
 msgstr ""
 
 #: ../../tutorial.rst:25
@@ -193,7 +193,7 @@ msgid "The 7 is the code for the printer class according to the USB spec. Hey, w
 msgstr ""
 
 #: ../../tutorial.rst:178
-msgid "What happened? Well, it is time for a little explanation... ``find`` has a parameter called ``find_all`` that defaults to False. When it is false [#]_, ``find`` will return the first device found that matches the specified criteria (more on that soon). If you give it a *true* value, ``find`` will instead return a list with all devices matching the criteria.  That's it! Simple, isn't it?"
+msgid "What happened? Well, it is time for a little explanation... ``find`` has a parameter called ``find_all`` that defaults to False. When it is false [#]_, ``find`` will return the first device found that matches the specified criteria (more on that soon). If you give it a *true* value, ``find`` will instead return an iterator of all devices that match the criteria.  That's it! Simple, isn't it?"
 msgstr ""
 
 #: ../../tutorial.rst:185
@@ -377,7 +377,7 @@ msgid "Python has what we call *automatic memory management*. This means that th
 msgstr ""
 
 #: ../../tutorial.rst:544
-msgid "If you want to claim and release interfaces manually, you may use the ``claim_interface`` and ``release_interface`` functions. ``claim_interface`` will claim the specified interface if the device has not done it yet. If the device already claimed the interface, it does nothing.  In a similar way, ``release_interface`` will release the specified interface if it is claimed. If the interface is not claimed, it does nothing. You can use manual interface claim to solve the `configuration selection problem <http://libusb.sourceforge.net/api-1.0/caveats.html>`__ described in the libusb_ documentation."
+msgid "If you want to claim and release interfaces manually, you may use the ``claim_interface`` and ``release_interface`` functions. ``claim_interface`` will claim the specified interface if the device has not done it yet. If the device already claimed the interface, it does nothing.  In a similar way, ``release_interface`` will release the specified interface if it is claimed. If the interface is not claimed, it does nothing. You can use manual interface claim to solve the `configuration selection problem <http://libusb.sourceforge.net/api-1.0/libusb_caveats.html#configsel>`__ described in the libusb_ documentation."
 msgstr ""
 
 #: ../../tutorial.rst:554

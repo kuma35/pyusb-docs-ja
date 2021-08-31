@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 09:22+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,38 +60,42 @@ msgstr ""
 msgid "To install either libusb_ or libusb-win32_ on Windows, please use zadig_."
 msgstr ""
 
-#: ../../faq.rst:35
+#: ../../faq.rst:34
+msgid "Take note Zadig does not install libusb-1.0.dll so you need to put libusb-1.0.dll in the right place of your python installation so as to use libusb 1.0 backend."
+msgstr ""
+
+#: ../../faq.rst:39
 msgid "How do I enforce a backend?"
 msgstr ""
 
-#: ../../faq.rst:37
+#: ../../faq.rst:41
 msgid "Here is an example for the *libusb1* backend::"
 msgstr ""
 
-#: ../../faq.rst:45
+#: ../../faq.rst:49
 msgid "How can I pass the libusb library path to the backend?"
 msgstr ""
 
-#: ../../faq.rst:47
+#: ../../faq.rst:51
 msgid "Check the *Specify libraries by hand* section in the tutorial_."
 msgstr ""
 
-#: ../../faq.rst:52
+#: ../../faq.rst:56
 msgid "How (not) to call set_configuration() on a device already configured with the selected configuration?"
 msgstr ""
 
-#: ../../faq.rst:54
+#: ../../faq.rst:58
 msgid "Typically ``set_configuration()`` is called during device initialization. The `libusb documentation`_ on ``libusb_set_configuration()`` states:"
 msgstr ""
 
-#: ../../faq.rst:58
+#: ../../faq.rst:62
 msgid "If you call this function on a device already configured with the selected configuration, then this function will act as a lightweight device reset: it will issue a SET_CONFIGURATION request using the current configuration, causing most USB-related device state to be reset (altsetting reset to zero, endpoint halts cleared, toggles reset)."
 msgstr ""
 
-#: ../../faq.rst:60
+#: ../../faq.rst:64
 msgid "Calling ``write()`` subsequently will therefore result in a timeout error."
 msgstr ""
 
-#: ../../faq.rst:62
+#: ../../faq.rst:66
 msgid "One solution to this behaviour is to consider the currently active configuration, as described in the `configuration selection and handling`_. \"If the configuration we want is already active, then we don't have to select any configuration\"::"
 msgstr ""
