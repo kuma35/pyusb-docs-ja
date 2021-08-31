@@ -206,7 +206,7 @@ Classes
 
       This method should only be called when the interface has more than
       one alternate setting. The dev_handle is the value returned by the
-      open_device() method. intf and altsetting are respectivelly the
+      open_device() method. intf and altsetting are respectively the
       bInterfaceNumber and bAlternateSetting fields of the related interface.
 
 
@@ -278,7 +278,7 @@ Classes
 
    .. py:method:: intr_read(self, dev_handle, ep, intf, size, timeout)
 
-      Perform an interrut read.
+      Perform an interrupt read.
 
       dev_handle is the value returned by the open_device() method.
       The ep parameter is the bEndpointAddress field whose endpoint

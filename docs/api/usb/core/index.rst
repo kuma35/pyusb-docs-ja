@@ -525,7 +525,7 @@ Functions
    device. For example:
 
    .. code-block:: python
-   
+
       find(idVendor=0x3f4, idProduct=0x2009)
 
    will return the Device object for the device with idVendor field equals
