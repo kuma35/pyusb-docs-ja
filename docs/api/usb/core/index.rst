@@ -82,12 +82,12 @@ Functions
 
    .. py:method:: __repr__(self)
 
-      Return repr(self).
+      :return: repr(self).
 
 
    .. py:method:: __str__(self)
 
-      Return str(self).
+      :return: str(self).
 
 
    .. py:method:: write(self, data, timeout=None)
@@ -146,7 +146,7 @@ Functions
 
    .. py:method:: __repr__(self)
 
-      Return repr(self).
+      :return: repr(self).
 
 
    .. py:method:: __str__(self)
@@ -156,7 +156,7 @@ Functions
 
    .. py:method:: endpoints(self)
 
-      Return a tuple of the interface endpoints.
+      :return: a tuple of the interface endpoints.
 
 
    .. py:method:: set_altsetting(self)
@@ -171,7 +171,7 @@ Functions
 
    .. py:method:: __getitem__(self, index)
 
-      Return the Endpoint object in the given position.
+      :return: the Endpoint object in the given position.
 
 
    .. py:method:: _str(self)
@@ -199,17 +199,17 @@ Functions
 
    .. py:method:: __repr__(self)
 
-      Return repr(self).
+      :return: repr(self).
 
 
    .. py:method:: __str__(self)
 
-      Return str(self).
+      :return: str(self).
 
 
    .. py:method:: interfaces(self)
 
-      Return a tuple of the configuration interfaces.
+      :return: a tuple of the configuration interfaces.
 
 
    .. py:method:: set(self)
@@ -224,7 +224,7 @@ Functions
 
    .. py:method:: __getitem__(self, index)
 
-      Return the Interface object in the given position.
+      :return: the Interface object in the given position.
 
       index is a tuple of two values with interface index and
       alternate setting index, respectivally. Example:
@@ -290,7 +290,7 @@ Functions
 
    .. py:method:: configurations(self)
 
-      Return a tuple of the device configurations.
+      :return: a tuple of the device configurations.
 
 
    .. py:method:: langids(self)
@@ -328,7 +328,7 @@ Functions
    .. py:method:: parent(self)
       :property:
 
-      Return the parent device. 
+      :return: the parent device. 
 
 
    .. py:method:: manufacturer(self)
@@ -359,8 +359,8 @@ Functions
 
    .. py:method:: get_active_configuration(self)
 
-      Return a Configuration object representing the current
-      configuration set.
+      :return: a Configuration object representing the current
+	       configuration set.
 
 
    .. py:method:: set_interface_altsetting(self, interface=None, alternate_setting=None)
@@ -494,7 +494,7 @@ Functions
 
    .. py:method:: __getitem__(self, index)
 
-      Return the Configuration object in the given position.
+      :return: the Configuration object in the given position.
 
 
    .. py:method:: _finalize_object(self)

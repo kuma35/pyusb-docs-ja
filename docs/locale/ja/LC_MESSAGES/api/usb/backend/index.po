@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:44+0900\n"
-"PO-Revision-Date: 2020-05-01 17:45+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
+"PO-Revision-Date: 2021-08-31 15:14+0900\n"
 "Last-Translator: kuma35\n"
-"Language-Team: Japanese\n"
 "Language: ja_JP\n"
+"Language-Team: Japanese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.1\n"
 
+# | msgid "import usb.backend"
 #: ../../api/usb/backend/index.rst:2
-#, fuzzy
-#| msgid "import usb.backend"
 msgid ":py:mod:`usb.backend`"
-msgstr "import usb.backend"
+msgstr ":py:mod:`usb.backend`"
 
 #: ../../api/usb/backend/index.rst:7
 msgid "usb.backend - Backend interface."
@@ -40,48 +40,45 @@ msgid ""
 "Backends are Python objects which implement the IBackend interface. The "
 "easiest way to do so is inherinting from IBackend."
 msgstr ""
-"バックエンド(backend)は、IBackendインターフェイスを実装するPythonオブジェクト"
-"です。 これを行う最も簡単な方法は、IBackendから継承することです。"
+"バックエンド(backend)は、IBackendインターフェイスを実装するPythonオブジェクトです。 "
+"これを行う最も簡単な方法は、IBackendから継承することです。"
 
 #: ../../api/usb/backend/index.rst:16
 msgid ""
-"PyUSB already provides backends for libusb versions 0.1 and 1.0, and OpenUSB "
-"library. Backends modules included with PyUSB are required to export the "
-"get_backend() function, which returns an instance of a backend object. You "
-"can provide your own customized backend if you want to. Below you find a "
-"skeleton of a backend implementation module:"
+"PyUSB already provides backends for libusb versions 0.1 and 1.0, and "
+"OpenUSB library. Backends modules included with PyUSB are required to "
+"export the get_backend() function, which returns an instance of a backend"
+" object. You can provide your own customized backend if you want to. "
+"Below you find a skeleton of a backend implementation module:"
 msgstr ""
-"PyUSBはすでにlibusbバージョン0.1と1.0、およびOpenUSBライブラリのバックエンド"
-"を提供しています。 PyUSBに含まれるバックエンド・モジュールは、バックエンド・"
-"オブジェクトのインスタンスを返すget_backend()関数をエクスポートする必要があり"
-"ます。必要に応じて、独自にカスタマイズしたバックエンドを提供できます。 以下"
-"に、バックエンド実装モジュールのスケルトンを示します:"
+"PyUSBはすでにlibusbバージョン0.1と1.0、およびOpenUSBライブラリのバックエンドを提供しています。 "
+"PyUSBに含まれるバックエンド・モジュールは、バックエンド・オブジェクトのインスタンスを返すget_backend()関数をエクスポートする必要があります。必要に応じて、独自にカスタマイズしたバックエンドを提供できます。"
+" 以下に、バックエンド実装モジュールのスケルトンを示します:"
 
 #: ../../api/usb/backend/index.rst:32
 msgid ""
-"You can use your customized backend by passing it as the backend parameter "
-"of the usb.core.find() function. For example:"
+"You can use your customized backend by passing it as the backend "
+"parameter of the usb.core.find() function. For example:"
 msgstr ""
-"あなたは、あなたがカスタマイズしたバックエンドを usb.core.find() 関数のバック"
-"エンド・パラメータとして渡すことで使用できます。例えば:"
+"あなたは、あなたがカスタマイズしたバックエンドを usb.core.find() "
+"関数のバックエンド・パラメータとして渡すことで使用できます。例えば:"
 
 #: ../../api/usb/backend/index.rst:48
 msgid ""
 "For custom backends, you are not required to supply the get_backend() "
 "function, since the application code will instantiate the backend."
 msgstr ""
-"カスタム・バックエンドの場合、アプリケーション・コードがバックエンドをインス"
-"タンス化するため、あなたは get_backend()関数を提供する必要はありません。"
+"カスタム・バックエンドの場合、アプリケーション・コードがバックエンドをインスタンス化するため、あなたは "
+"get_backend()関数を提供する必要はありません。"
 
 #: ../../api/usb/backend/index.rst:51
 msgid ""
-"If you do not provide a backend to the find() function, it will use one of "
-"the defaults backend according to its internal rules. For details, consult "
-"the find() function documentation."
+"If you do not provide a backend to the find() function, it will use one "
+"of the defaults backend according to its internal rules. For details, "
+"consult the find() function documentation."
 msgstr ""
-"find()関数にバックエンドを指定しない場合、内部ルールに従ってデフォルトのバッ"
-"クエンドの1つを使用します。 詳細については、find()関数のドキュメントを参照し"
-"てください。"
+"find()関数にバックエンドを指定しない場合、内部ルールに従ってデフォルトのバックエンドの1つを使用します。 "
+"詳細については、find()関数のドキュメントを参照してください。"
 
 #: ../../api/usb/backend/index.rst:58
 msgid "Submodules"
@@ -89,23 +86,21 @@ msgstr "サブモジュール"
 
 #: ../../api/usb/backend/index.rst:69
 msgid "Package Contents"
-msgstr ""
+msgstr "Package Contents"
 
 #: ../../api/usb/backend/index.rst:72
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
+# | msgid "usb.backend package"
 #: ../../api/usb/backend/index.rst:74
-#, fuzzy
-#| msgid "usb.backend package"
 msgid "usb.backend.IBackend"
-msgstr "usb.backend パッケージ"
+msgstr "usb.backend.IBackend"
 
+# | msgid "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
 #: ../../api/usb/backend/index.rst:78
-#, fuzzy
-#| msgid "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
 msgid "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
-msgstr "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
+msgstr "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
 
 #: ../../api/usb/backend/index.rst:80
 msgid "Backend interface."
@@ -113,43 +108,37 @@ msgstr "バックエンド・インターフェイス"
 
 #: ../../api/usb/backend/index.rst:82
 msgid ""
-"IBackend is the basic interface for backend implementations. By default, the "
-"methods of the interface raise a NotImplementedError exception. A backend "
-"implementation should replace the methods to provide the funcionality "
-"necessary."
+"IBackend is the basic interface for backend implementations. By default, "
+"the methods of the interface raise a NotImplementedError exception. A "
+"backend implementation should replace the methods to provide the "
+"funcionality necessary."
 msgstr ""
-"IBackendは、バックエンド実装の基本的なインターフェイスです。 デフォルトでは、"
-"インターフェイスのメソッドはNotImplementedError例外を発生させます。 バックエ"
-"ンド実装は、必要な機能を提供するためにメソッドを置き換える必要があります。"
+"IBackendは、バックエンド実装の基本的なインターフェイスです。 "
+"デフォルトでは、インターフェイスのメソッドはNotImplementedError例外を発生させます。 "
+"バックエンド実装は、必要な機能を提供するためにメソッドを置き換える必要があります。"
 
 #: ../../api/usb/backend/index.rst:87
 msgid ""
-"As Python is a dynamic typed language, you are not obligated to inherit from "
-"IBackend: everything that behaves like an IBackend is an IBackend. But you "
-"are strongly recommended to do so, inheriting from IBackend provides "
-"consistent default behavior."
+"As Python is a dynamic typed language, you are not obligated to inherit "
+"from IBackend: everything that behaves like an IBackend is an IBackend. "
+"But you are strongly recommended to do so, inheriting from IBackend "
+"provides consistent default behavior."
 msgstr ""
-"Pythonは動的型付き言語であるため、IBackendから継承する義務はありません。"
-"IBackendのように動作するものはすべてIBackendです。 ただし、IBackendから継承す"
-"ることをことを強くお勧めします。IBackendから継承すると、一貫したデフォルトの"
-"動作が提供されます。"
+"Pythonは動的型付き言語であるため、IBackendから継承する義務はありません。IBackendのように動作するものはすべてIBackendです。"
+" ただし、IBackendから継承することをことを強くお勧めします。IBackendから継承すると、一貫したデフォルトの動作が提供されます。"
 
 #: ../../api/usb/backend/index.rst:94
 msgid ""
 "This function is required to return an iterable object which yields an "
-"implementation defined device identification for each USB device found in "
-"the system."
-msgstr ""
-"この関数は、システムで検出された各USBデバイスの実装定義のデバイスIDを生成する"
-"反復可能(iterable)なオブジェクトを返すために必要です。"
+"implementation defined device identification for each USB device found in"
+" the system."
+msgstr "この関数は、システムで検出された各USBデバイスの実装定義のデバイスIDを生成する反復可能(iterable)なオブジェクトを返すために必要です。"
 
 #: ../../api/usb/backend/index.rst:98
 msgid ""
-"The device identification object is used as argument to other methods of the "
-"interface."
-msgstr ""
-"デバイス識別オブジェクト(device identification object)は、インターフェイスの"
-"他のメソッドへの引数として使用されます。"
+"The device identification object is used as argument to other methods of "
+"the interface."
+msgstr "デバイス識別オブジェクト(device identification object)は、インターフェイスの他のメソッドへの引数として使用されます。"
 
 #: ../../api/usb/backend/index.rst:104
 msgid "Return the parent device of the given device."
@@ -162,20 +151,17 @@ msgstr "与えたデバイスのデバイス・デスクリプタを返します
 #: ../../api/usb/backend/index.rst:111
 msgid ""
 "The object returned is required to have all the Device Descriptor fields "
-"accessible as member variables. They must be convertible (but not required "
-"to be equal) to the int type."
+"accessible as member variables. They must be convertible (but not "
+"required to be equal) to the int type."
 msgstr ""
-"返されるオブジェクトには、すべてのデバイス・デスクリプタ・フィールドをメン"
-"バー変数としてアクセス可能にする必要があります。 これらは、int型に変換可能で"
-"ある必要があります(等しい必要はありません)。"
+"返されるオブジェクトには、すべてのデバイス・デスクリプタ・フィールドをメンバー変数としてアクセス可能にする必要があります。 "
+"これらは、int型に変換可能である必要があります(等しい必要はありません)。"
 
 #: ../../api/usb/backend/index.rst:115
 msgid ""
-"dev is an object yielded by the iterator returned by the enumerate_devices() "
-"method."
-msgstr ""
-"devは、enumerate_devices()メソッドによって返されるイテレータによって生成され"
-"るオブジェクトです。"
+"dev is an object yielded by the iterator returned by the "
+"enumerate_devices() method."
+msgstr "devは、enumerate_devices()メソッドによって返されるイテレータによって生成されるオブジェクトです。"
 
 #: ../../api/usb/backend/index.rst:121
 msgid "Return a configuration descriptor of the given device."
@@ -186,22 +172,15 @@ msgid ""
 "The object returned is required to have all the Configuration Descriptor "
 "fields acessible as member variables. They must be convertible (but not "
 "required to be equal) to the int type."
-msgstr ""
-"返されるオブジェクトには、メンバー変数としてアクセス可能なすべての構成"
-"(configuration)デスクリプタ・フィールドが必要です。これらは、int型に変換可能"
-"である必要があります(等しい必要はありません)。"
+msgstr "返されるオブジェクトには、メンバー変数としてアクセス可能なすべての構成(configuration)デスクリプタ・フィールドが必要です。これらは、int型に変換可能である必要があります(等しい必要はありません)。"
 
 #: ../../api/usb/backend/index.rst:127
 msgid ""
-"The dev parameter is the device identification object. config is the logical "
-"index of the configuration (not the bConfigurationValue field).  By "
-"\"logical index\" we mean the relative order of the configurations returned "
-"by the peripheral as a result of GET_DESCRIPTOR request."
-msgstr ""
-"devパラメータはデバイス識別オブジェクトです。configは構成(congigure)の論理イ"
-"ンデックスです(bConfigurationValueフィールドではありません)。「論理インデック"
-"ス」とは、GET_DESCRIPTORリクエストの結果としてペリフェラルによって返される構"
-"成の相対的な順序を意味します。"
+"The dev parameter is the device identification object. config is the "
+"logical index of the configuration (not the bConfigurationValue field).  "
+"By \"logical index\" we mean the relative order of the configurations "
+"returned by the peripheral as a result of GET_DESCRIPTOR request."
+msgstr "devパラメータはデバイス識別オブジェクトです。configは構成(congigure)の論理インデックスです(bConfigurationValueフィールドではありません)。「論理インデックス」とは、GET_DESCRIPTORリクエストの結果としてペリフェラルによって返される構成の相対的な順序を意味します。"
 
 #: ../../api/usb/backend/index.rst:135
 msgid "Return an interface descriptor of the given device."
@@ -209,30 +188,26 @@ msgstr "与えたデバイスのインターフェイス・デスクリプタを
 
 #: ../../api/usb/backend/index.rst:137
 msgid ""
-"The object returned is required to have all the Interface Descriptor fields "
-"accessible as member variables. They must be convertible (but not required "
-"to be equal) to the int type."
+"The object returned is required to have all the Interface Descriptor "
+"fields accessible as member variables. They must be convertible (but not "
+"required to be equal) to the int type."
 msgstr ""
-"返されるオブジェクトには、すべてのインターフェイス・デスクリプタ・フィールド"
-"をメンバー変数としてアクセスできるようにする必要があります。 これらは、int型"
-"に変換可能である必要があります(等しい必要はありません)。"
+"返されるオブジェクトには、すべてのインターフェイス・デスクリプタ・フィールドをメンバー変数としてアクセスできるようにする必要があります。 "
+"これらは、int型に変換可能である必要があります(等しい必要はありません)。"
 
 #: ../../api/usb/backend/index.rst:141
 msgid ""
-"The dev parameter is the device identification object. The intf parameter is "
-"the interface logical index (not the bInterfaceNumber field) and alt is the "
-"alternate setting logical index (not the bAlternateSetting value). Not every "
-"interface has more than one alternate setting.  In this case, the alt "
-"parameter should be zero. config is the configuration logical index (not the "
-"bConfigurationValue field)."
+"The dev parameter is the device identification object. The intf parameter"
+" is the interface logical index (not the bInterfaceNumber field) and alt "
+"is the alternate setting logical index (not the bAlternateSetting value)."
+" Not every interface has more than one alternate setting.  In this case, "
+"the alt parameter should be zero. config is the configuration logical "
+"index (not the bConfigurationValue field)."
 msgstr ""
-"devパラメータはデバイス識別オブジェクトです。 intfパラメータは"
-"(bInterfaceNumberフィールドではなく)インターフェイスの論理インデックスであ"
-"り、altは(bAlternateSetting値ではなく)代替設定(alternate setting)の論理イン"
-"デックスです。すべてのインターフェイスに複数の代替設定(alternate setting)があ"
-"るわけではありません。この場合、altパラメータはゼロにする必要があります。"
-"configは構成(configuration)の論理インデックスです(bConfigurationValueフィール"
-"ドではありません)。"
+"devパラメータはデバイス識別オブジェクトです。 "
+"intfパラメータは(bInterfaceNumberフィールドではなく)インターフェイスの論理インデックスであり、altは(bAlternateSetting値ではなく)代替設定(alternate"
+" setting)の論理インデックスです。すべてのインターフェイスに複数の代替設定(alternate "
+"setting)があるわけではありません。この場合、altパラメータはゼロにする必要があります。configは構成(configuration)の論理インデックスです(bConfigurationValueフィールドではありません)。"
 
 #: ../../api/usb/backend/index.rst:151
 msgid "Return an endpoint descriptor of the given device."
@@ -240,23 +215,22 @@ msgstr "与えたデバイスのエンドポイント・デスクリプタを返
 
 #: ../../api/usb/backend/index.rst:153
 msgid ""
-"The object returned is required to have all the Endpoint Descriptor fields "
-"acessible as member variables. They must be convertible (but not required to "
-"be equal) to the int type."
+"The object returned is required to have all the Endpoint Descriptor "
+"fields acessible as member variables. They must be convertible (but not "
+"required to be equal) to the int type."
 msgstr ""
-"返されるオブジェクトには、メンバー変数としてアクセス可能なすべてのエンドポイ"
-"ント・デスクリプタ・フィールドが必要です。 これらは、int型に変換可能である必"
-"要があります(等しい必要はありません)。"
+"返されるオブジェクトには、メンバー変数としてアクセス可能なすべてのエンドポイント・デスクリプタ・フィールドが必要です。 "
+"これらは、int型に変換可能である必要があります(等しい必要はありません)。"
 
 #: ../../api/usb/backend/index.rst:157
 msgid ""
 "The ep parameter is the endpoint logical index (not the bEndpointAddress "
-"field) of the endpoint descriptor desired. dev, intf, alt and config are the "
-"same values already described in the get_interface_descriptor() method."
+"field) of the endpoint descriptor desired. dev, intf, alt and config are "
+"the same values already described in the get_interface_descriptor() "
+"method."
 msgstr ""
-"epパラメーターは、必要なエンドポイント・デスクリプタのエンドポイント論理イン"
-"デックス(bEndpointAddressフィールドではない)です。 dev、intf、alt、configは、"
-"get_interface_descriptor()メソッドですでに説明済のものと同じ値です。"
+"epパラメーターは、必要なエンドポイント・デスクリプタのエンドポイント論理インデックス(bEndpointAddressフィールドではない)です。"
+" dev、intf、alt、configは、get_interface_descriptor()メソッドですでに説明済のものと同じ値です。"
 
 #: ../../api/usb/backend/index.rst:164
 msgid "Open the device for data exchange."
@@ -265,20 +239,19 @@ msgstr "データ交換(data exchange)のためにデバイスを開きます。
 #: ../../api/usb/backend/index.rst:166
 msgid ""
 "This method opens the device identified by the dev parameter for "
-"communication. This method must be called before calling any communication "
-"related method, such as transfer methods."
+"communication. This method must be called before calling any "
+"communication related method, such as transfer methods."
 msgstr ""
 "このメソッドは、通信のためにdevパラメーターで識別されたデバイスを開きます。 "
-"このメソッドは、転送メソッドなどの通信関連メソッドを呼び出す前に呼び出す必要"
-"があります。"
+"このメソッドは、転送メソッドなどの通信関連メソッドを呼び出す前に呼び出す必要があります。"
 
 #: ../../api/usb/backend/index.rst:170
 msgid ""
-"It returns a handle identifying the communication instance. This handle must "
-"be passed to the communication methods."
+"It returns a handle identifying the communication instance. This handle "
+"must be passed to the communication methods."
 msgstr ""
-"通信インスタンス(communication instance)を識別するハンドルを返します。 このハ"
-"ンドルを通信メソッド(communication method)に渡す必要があります。"
+"通信インスタンス(communication instance)を識別するハンドルを返します。 "
+"このハンドルを通信メソッド(communication method)に渡す必要があります。"
 
 #: ../../api/usb/backend/index.rst:176
 msgid "Close the device handle."
@@ -286,11 +259,9 @@ msgstr "デバイス・ハンドルをクローズする。"
 
 #: ../../api/usb/backend/index.rst:178
 msgid ""
-"This method closes the device communication channel and releases any system "
-"resources related to it."
-msgstr ""
-"このメソッドは、デバイスの通信チャネルを閉じ、それに関連するすべてのシステム"
-"リソースを解放します。"
+"This method closes the device communication channel and releases any "
+"system resources related to it."
+msgstr "このメソッドは、デバイスの通信チャネルを閉じ、それに関連するすべてのシステムリソースを解放します。"
 
 #: ../../api/usb/backend/index.rst:184
 msgid "Set the active device configuration."
@@ -298,15 +269,13 @@ msgstr "アクティブなデバイス構成(configurtion)をセットする。"
 
 #: ../../api/usb/backend/index.rst:186
 msgid ""
-"This method should be called to set the active configuration of the device. "
-"The dev_handle parameter is the value returned by the open_device() method "
-"and the config_value parameter is the bConfigurationValue field of the "
-"related configuration descriptor."
+"This method should be called to set the active configuration of the "
+"device. The dev_handle parameter is the value returned by the "
+"open_device() method and the config_value parameter is the "
+"bConfigurationValue field of the related configuration descriptor."
 msgstr ""
-"このメソッドは、デバイスのアクティブな構成を設定するために呼び出す必要があり"
-"ます。 dev_handleパラメータはopen_device()メソッドによって返される値であり、"
-"config_valueパラメータは関連する構成(configure)デスクリプタの"
-"bConfigurationValueフィールドです。"
+"このメソッドは、デバイスのアクティブな構成を設定するために呼び出す必要があります。 "
+"dev_handleパラメータはopen_device()メソッドによって返される値であり、config_valueパラメータは関連する構成(configure)デスクリプタのbConfigurationValueフィールドです。"
 
 #: ../../api/usb/backend/index.rst:194
 msgid "Get the current active device configuration."
@@ -315,14 +284,12 @@ msgstr "当座(current)のアクティブなデバイス構成(configuration)を
 #: ../../api/usb/backend/index.rst:196
 msgid ""
 "This method returns the bConfigurationValue of the currently active "
-"configuration. Depending on the backend and the OS, either a cached value "
-"may be returned or a control request may be issued. The dev_handle parameter "
-"is the value returned by the open_device method."
+"configuration. Depending on the backend and the OS, either a cached value"
+" may be returned or a control request may be issued. The dev_handle "
+"parameter is the value returned by the open_device method."
 msgstr ""
-"このメソッドは、現在アクティブな構成(configuration)のbConfigurationValueを返"
-"します。バックエンドとOSに応じて、キャッシュされた値が返されるか、制御要求"
-"(control request)が発行されます。dev_handleパラメータは、open_deviceメソッド"
-"によって返される値です。"
+"このメソッドは、現在アクティブな構成(configuration)のbConfigurationValueを返します。バックエンドとOSに応じて、キャッシュされた値が返されるか、制御要求(control"
+" request)が発行されます。dev_handleパラメータは、open_deviceメソッドによって返される値です。"
 
 #: ../../api/usb/backend/index.rst:205
 msgid "Set the interface alternate setting."
@@ -331,14 +298,10 @@ msgstr "インターフェイス代替設定(alternate setting)をセットす�
 #: ../../api/usb/backend/index.rst:207
 msgid ""
 "This method should only be called when the interface has more than one "
-"alternate setting. The dev_handle is the value returned by the open_device() "
-"method. intf and altsetting are respectivelly the bInterfaceNumber and "
-"bAlternateSetting fields of the related interface."
-msgstr ""
-"このメソッドは、インターフェイスに複数の代替設定(alternate setting)がある場合"
-"にのみ呼び出す必要があります。dev_handleは、open_device()メソッドによって返さ"
-"れる値です。intfとaltsettingは、それぞれ関連するインターフェイスの"
-"bInterfaceNumberおよびbAlternateSettingフィールドです。"
+"alternate setting. The dev_handle is the value returned by the "
+"open_device() method. intf and altsetting are respectively the "
+"bInterfaceNumber and bAlternateSetting fields of the related interface."
+msgstr "このメソッドは、インターフェイスに複数の代替設定(alternate setting)がある場合にのみ呼び出す必要があります。dev_handleは、open_device()メソッドによって返される値です。intfとaltsettingは、それぞれ関連するインターフェイス(interface)のbInterfaceNumberフィールドとbAlternateSettingフィールドです。"
 
 #: ../../api/usb/backend/index.rst:215
 msgid "Claim the given interface."
@@ -346,31 +309,24 @@ msgstr "指定のインターフェイスを要求(claim)します。"
 
 #: ../../api/usb/backend/index.rst:217
 msgid ""
-"Interface claiming is not related to USB spec itself, but it is generally an "
-"necessary call of the USB libraries. It requests exclusive access to the "
-"interface on the system. This method must be called before using one of the "
-"transfer methods."
-msgstr ""
-"インターフェイスの要求(claim)はUSB仕様自体には関係ありませんが、通常はUSBライ"
-"ブラリに必要な呼び出しです。システム上のインターフェイスへの排他的アクセスを"
-"要求(request)します。このメソッドは、いずれかの転送(transfer)メソッドを使用す"
-"る前に呼び出す必要があります。"
+"Interface claiming is not related to USB spec itself, but it is generally"
+" an necessary call of the USB libraries. It requests exclusive access to "
+"the interface on the system. This method must be called before using one "
+"of the transfer methods."
+msgstr "インターフェイスの要求(claim)はUSB仕様自体には関係ありませんが、通常はUSBライブラリに必要な呼び出しです。システム上のインターフェイスへの排他的アクセスを要求(request)します。このメソッドは、いずれかの転送(transfer)メソッドを使用する前に呼び出す必要があります。"
 
 #: ../../api/usb/backend/index.rst:222
 msgid ""
-"dev_handle is the value returned by the open_device() method and intf is the "
-"bInterfaceNumber field of the desired interface."
-msgstr ""
-"dev_handleはopen_device()メソッドによって返された値で、intfは欲しいインター"
-"フェイスのbInterfaceNumberフィールドです。"
+"dev_handle is the value returned by the open_device() method and intf is "
+"the bInterfaceNumber field of the desired interface."
+msgstr "dev_handleはopen_device()メソッドによって返された値で、intfは欲しいインターフェイスのbInterfaceNumberフィールドです。"
 
 #: ../../api/usb/backend/index.rst:228
 msgid "Release the claimed interface."
 msgstr "要求済のインターフェイス(claimed interface)を開放する。"
 
 #: ../../api/usb/backend/index.rst:230
-msgid ""
-"dev_handle and intf are the same parameters of the claim_interface method."
+msgid "dev_handle and intf are the same parameters of the claim_interface method."
 msgstr "dev_handleとintfは、claim_interfaceメソッドと同様のパラメーターです。"
 
 #: ../../api/usb/backend/index.rst:236
@@ -381,18 +337,16 @@ msgstr "一括書き込み(bulk write)を実行します。"
 #: ../../api/usb/backend/index.rst:298
 msgid ""
 "dev_handle is the value returned by the open_device() method. The ep "
-"parameter is the bEndpointAddress field whose endpoint the data will be sent "
-"to. intf is the bInterfaceNumber field of the interface containing the "
-"endpoint. The data parameter is the data to be sent. It must be an instance "
-"of the array.array class. The timeout parameter specifies a time limit to "
-"the operation in miliseconds."
+"parameter is the bEndpointAddress field whose endpoint the data will be "
+"sent to. intf is the bInterfaceNumber field of the interface containing "
+"the endpoint. The data parameter is the data to be sent. It must be an "
+"instance of the array.array class. The timeout parameter specifies a time"
+" limit to the operation in miliseconds."
 msgstr ""
-"dev_handleは、open_device()メソッドによって返される値です。 epパラメータは、"
-"データが送信されるエンドポイントのbEndpointAddressフィールドです。 intfは、エ"
-"ンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。 dataパラ"
-"メータは、送信されるデータです。 これは、array.arrayクラスのインスタンスでな"
-"ければなりません。 timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定"
-"します。"
+"dev_handleは、open_device()メソッドによって返される値です。 "
+"epパラメータは、データが送信されるエンドポイントのbEndpointAddressフィールドです。 "
+"intfは、エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。 dataパラメータは、送信されるデータです。 "
+"これは、array.arrayクラスのインスタンスでなければなりません。 timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定します。"
 
 #: ../../api/usb/backend/index.rst:246 ../../api/usb/backend/index.rst:276
 #: ../../api/usb/backend/index.rst:306
@@ -409,15 +363,14 @@ msgid ""
 "parameter is the bEndpointAddress field whose endpoint the data will be "
 "received from. intf is the bInterfaceNumber field of the interface "
 "containing the endpoint. The buff parameter is the buffer to receive the "
-"data read, the length of the buffer tells how many bytes should be read. The "
-"timeout parameter specifies a time limit to the operation in miliseconds."
+"data read, the length of the buffer tells how many bytes should be read. "
+"The timeout parameter specifies a time limit to the operation in "
+"miliseconds."
 msgstr ""
-"dev_handleは、 open_device()メソッドによって返される値です。 epパラメーター"
-"は、データの受信元となるエンドポイントのbEndpointAddressフィールドです。 intf"
-"は、エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。 "
-"buffパラメータは、読み取られたデータを受け取るためのバッファです。バッファの"
-"長さのバイト数だけデータが読み取られます。timeoutパラメータは、操作のタイムア"
-"ウトをミリ秒単位で指定します。"
+"dev_handleは、 open_device()メソッドによって返される値です。 "
+"epパラメーターは、データの受信元となるエンドポイントのbEndpointAddressフィールドです。 "
+"intfは、エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。 "
+"buffパラメータは、読み取られたデータを受け取るためのバッファです。バッファの長さのバイト数だけデータが読み取られます。timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定します。"
 
 #: ../../api/usb/backend/index.rst:261 ../../api/usb/backend/index.rst:291
 #: ../../api/usb/backend/index.rst:321
@@ -428,10 +381,10 @@ msgstr "本メソッドは実際に読み取ったバイト数を返します。
 msgid "Perform an interrupt write."
 msgstr "割り込み書き込み(interrupt write)を実行します。"
 
-# interrut 原文のスペルミスと思われる。MLにて連絡済。
+# 本家:master更新で反映済←interrut 原文のスペルミスと思われる。MLにて連絡済。
 #: ../../api/usb/backend/index.rst:281
-msgid "Perform an interrut read."
-msgstr "割り込み読み取り(interrupt read)を実行します。"
+msgid "Perform an interrupt read."
+msgstr "読み取りの割込転送(interrupt read)を実行します。"
 
 #: ../../api/usb/backend/index.rst:283
 msgid ""
@@ -439,15 +392,10 @@ msgid ""
 "parameter is the bEndpointAddress field whose endpoint the data will be "
 "received from. intf is the bInterfaceNumber field of the interface "
 "containing the endpoint. The buff parameter is the buffer to receive the "
-"data read, the length of the buffer tells how many bytes should be read.  "
-"The timeout parameter specifies a time limit to the operation in miliseconds."
-msgstr ""
-"dev_handleは、open_device()メソッドによって返される値です。epパラメーターは、"
-"データの受信元となるエンドポイントのbEndpointAddressフィールドです。intfは、"
-"エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。buffパ"
-"ラメータは、読み取られたデータを受け取るためのバッファです。バッファの長さの"
-"バイト数だけデータが読み取られます。timeoutパラメータは、操作のタイムアウトを"
-"ミリ秒単位で指定します。"
+"data read, the length of the buffer tells how many bytes should be read."
+"  The timeout parameter specifies a time limit to the operation in "
+"miliseconds."
+msgstr "dev_handleは、open_device()メソッドによって返される値です。epパラメーターは、データの受信元となるエンドポイントのbEndpointAddressフィールドです。intfは、エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。buffパラメータは、読み取られたデータを受け取るためのバッファです。バッファの長さのバイト数だけデータが読み取られます。timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定します。"
 
 #: ../../api/usb/backend/index.rst:296
 msgid "Perform an isochronous write."
@@ -462,16 +410,10 @@ msgid ""
 "dev_handle is the value returned by the open_device() method. The ep "
 "parameter is the bEndpointAddress field whose endpoint the data will be "
 "received from. intf is the bInterfaceNumber field of the interface "
-"containing the endpoint. The buff parameter is buffer to receive the data "
-"read, the length of the buffer tells how many bytes should be read. The "
+"containing the endpoint. The buff parameter is buffer to receive the data"
+" read, the length of the buffer tells how many bytes should be read. The "
 "timeout parameter specifies a time limit to the operation in miliseconds."
-msgstr ""
-"dev_handleは、open_device()メソッドによって返される値です。epパラメーターは、"
-"データの受信元となるエンドポイントのbEndpointAddressフィールドです。intfは、"
-"エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。buffパ"
-"ラメータは、読み込まれたデータを受け取るためのバッファであり、バッファの長さ"
-"のバイト数だけデータが読み込まれます。timeoutパラメータは、操作のタイムアウト"
-"をミリ秒単位で指定します。"
+msgstr "dev_handleは、open_device()メソッドによって返される値です。epパラメーターは、データの受信元となるエンドポイントのbEndpointAddressフィールドです。intfは、エンドポイントを含むインターフェイスのbInterfaceNumberフィールドです。buffパラメータは、読み込まれたデータを受け取るためのバッファであり、バッファの長さのバイト数だけデータが読み込まれます。timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定します。"
 
 #: ../../api/usb/backend/index.rst:326
 msgid "Perform a control transfer on the endpoint 0."
@@ -479,52 +421,44 @@ msgstr "エンドポイント0(ゼロ)で制御(control)転送を実行します
 
 #: ../../api/usb/backend/index.rst:328
 msgid ""
-"The direction of the transfer is inferred from the bmRequestType field of "
-"the setup packet."
-msgstr ""
-"転送の方向は、セットアップパケットのbmRequestTypeフィールドから推測されます。"
+"The direction of the transfer is inferred from the bmRequestType field of"
+" the setup packet."
+msgstr "転送の方向は、セットアップパケットのbmRequestTypeフィールドから推測されます。"
 
 #: ../../api/usb/backend/index.rst:331
 msgid ""
-"dev_handle is the value returned by the open_device() method. bmRequestType, "
-"bRequest, wValue and wIndex are the same fields of the setup packet. data is "
-"an array object, for OUT requests it contains the bytes to transmit in the "
-"data stage and for IN requests it is the buffer to hold the data read. The "
-"number of bytes requested to transmit or receive is equal to the length of "
-"the array times the data.itemsize field. The timeout parameter specifies a "
-"time limit to the operation in miliseconds."
+"dev_handle is the value returned by the open_device() method. "
+"bmRequestType, bRequest, wValue and wIndex are the same fields of the "
+"setup packet. data is an array object, for OUT requests it contains the "
+"bytes to transmit in the data stage and for IN requests it is the buffer "
+"to hold the data read. The number of bytes requested to transmit or "
+"receive is equal to the length of the array times the data.itemsize "
+"field. The timeout parameter specifies a time limit to the operation in "
+"miliseconds."
 msgstr ""
-"dev_handleは、 open_device() メソッドによって返される値です。 bmRequestTypeと"
-"bRequestとwValueとwIndexは、セットアップパケットの同名のフィールドです。 data"
-"は配列オブジェクトです。OUTリクエストの場合はデータ・ステージで送信するバイト"
-"を格納しており、INリクエストの場合は読み取ったデータを保持するバッファです。 "
-"送信または受信が要求されたバイト数は、配列の長さにdata.itemsizeフィールドを掛"
-"けたものと同じです。 timeoutパラメータは、操作のタイムアウトをミリ秒単位で指"
-"定します。"
+"dev_handleは、 open_device() メソッドによって返される値です。 "
+"bmRequestTypeとbRequestとwValueとwIndexは、セットアップパケットの同名のフィールドです。 "
+"dataは配列オブジェクトです。OUTリクエストの場合はデータ・ステージで送信するバイトを格納しており、INリクエストの場合は読み取ったデータを保持するバッファです。"
+" 送信または受信が要求されたバイト数は、配列の長さにdata.itemsizeフィールドを掛けたものと同じです。 "
+"timeoutパラメータは、操作のタイムアウトをミリ秒単位で指定します。"
 
 #: ../../api/usb/backend/index.rst:340
 msgid ""
-"Return the number of bytes written (for OUT transfers) or the data read (for "
-"IN transfers), as an array.array object."
-msgstr ""
-"OUT転送時は書き込んだバイト数を返します。IN転送時は読み込んだデータをarray."
-"arrayオブジェクトとして返します。"
+"Return the number of bytes written (for OUT transfers) or the data read "
+"(for IN transfers), as an array.array object."
+msgstr "OUT転送時は書き込んだバイト数を返します。IN転送時は読み込んだデータをarray.arrayオブジェクトとして返します。"
 
 # https://talking-english.net/stall/
 # stall（ストール）は屋台や露店のほかに、トイレの個室などを指して使われる言葉です。
 # もともとは牛や馬をとどめておくところを指して使われています。
-#
 # いろんな言葉の影響を受けて成り立ちが複雑ですが、
 # 大元の根源的な意味として「止める」ことにあり、何かを止める、
 # 留めるためのものだと思えば、このページで紹介するいろんな意味に納得がいくかもしれません。
-#
 # 動詞では「突然とまる」や「時間を引き延ばす」といった使い方が存在しています。１つ１つ例文にまとめてみました。
 # stallは元々、牛・豚の小屋（stable）の中の１頭１頭のために区画された場所を指したようで、
 # 普通の人はあまり使う単語ではありませんが今でもこの意味での使い方はあります。
-#
 # 動詞では突然動くのをやめること、あるいは進展するのをやめることです。
 # 乗り物に使われることが多いですが、交渉などにも使えます。
-#
 # もっと時間を作るために誰かをわざと遅れさせることで、
 # 「（時間稼ぎのために）待たせる、止める、引き延ばす」みたいな意味もあります。
 #: ../../api/usb/backend/index.rst:346
@@ -537,16 +471,13 @@ msgstr "デバイスをリセットする。"
 
 #: ../../api/usb/backend/index.rst:356
 msgid "Determine if a kernel driver is active on an interface."
-msgstr ""
-"カーネル・ドライバーがインターフェイスでアクティブかどうかを確認します。"
+msgstr "カーネル・ドライバーがインターフェイスでアクティブかどうかを確認します。"
 
 #: ../../api/usb/backend/index.rst:358
 msgid ""
 "If a kernel driver is active, you cannot claim the interface, and the "
 "backend will be unable to perform I/O."
-msgstr ""
-"カーネル・ドライバがアクティブな場合、あなたはインターフェイスを要求(claim)で"
-"きず、バックエンドは入出力を実行できません。"
+msgstr "カーネル・ドライバがアクティブな場合、あなたはインターフェイスを要求(claim)できず、バックエンドは入出力を実行できません。"
 
 #: ../../api/usb/backend/index.rst:364
 msgid "Detach a kernel driver from an interface."
@@ -554,53 +485,13 @@ msgstr "インターフェイスからカーネル・ドライバを取り外し
 
 #: ../../api/usb/backend/index.rst:366
 msgid ""
-"If successful, you will then be able to claim the interface and perform I/O."
-msgstr ""
-"成功ならば、あなたはインターフェイスを要求(claim)して入出力を実行可能です。"
+"If successful, you will then be able to claim the interface and perform "
+"I/O."
+msgstr "成功ならば、あなたはインターフェイスを要求(claim)して入出力を実行可能です。"
 
 #: ../../api/usb/backend/index.rst:372
 msgid ""
-"Re-attach an interface's kernel driver, which was previously detached using "
-"detach_kernel_driver()."
-msgstr ""
-"以前 detach_kernel_driver() を使用して切り離されていたインターフェイスのカー"
-"ネル・ドライバーを再接続します。"
+"Re-attach an interface's kernel driver, which was previously detached "
+"using detach_kernel_driver()."
+msgstr "以前 detach_kernel_driver() を使用して切り離されていたインターフェイスのカーネル・ドライバーを再接続します。"
 
-#~ msgid "usb.backend.libusb0 module"
-#~ msgstr "usb.backend.libusb0 モジュール"
-
-#~ msgid "usb.backend.libusb1 module"
-#~ msgstr "usb.backend.libusb1 モジュール"
-
-#~ msgid "usb.backend.openusb module"
-#~ msgstr "usb.backend.openusb モジュール"
-
-#~ msgid "Module contents"
-#~ msgstr "モジュール内容"
-
-#~ msgid "class MyBackend(usb.backend.IBackend):"
-#~ msgstr "class MyBackend(usb.backend.IBackend):"
-
-#~ msgid "pass"
-#~ msgstr "pass"
-
-#~ msgid "def get_backend():"
-#~ msgstr "def get_backend():"
-
-#~ msgid "return MyBackend()"
-#~ msgstr "return MyBackend()"
-
-#~ msgid "import custom_backend import usb.core"
-#~ msgstr "import custom_backend import usb.core"
-
-#~ msgid "myidVendor = 0xfffe myidProduct = 0x0001"
-#~ msgstr "myidVendor = 0xfffe myidProduct = 0x0001"
-
-#~ msgid "mybackend = custom_backend.get_backend()"
-#~ msgstr "mybackend = custom_backend.get_backend()"
-
-#~ msgid "dev = usb.core.find(backend = mybackend, idProduct=myidProduct,"
-#~ msgstr "dev = usb.core.find(backend = mybackend, idProduct=myidProduct,"
-
-#~ msgid "idVendor=myidVendor)"
-#~ msgstr "idVendor=myidVendor)"

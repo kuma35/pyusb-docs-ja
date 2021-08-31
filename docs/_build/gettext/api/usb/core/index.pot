@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"POT-Creation-Date: 2021-08-31 18:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,15 +134,31 @@ msgstr ""
 msgid "This class contains all fields of the Endpoint Descriptor according to the USB Specification. You can access them as class properties. For example, to access the field bEndpointAddress of the endpoint descriptor, you can do so:"
 msgstr ""
 
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+#: ../../api/usb/core/index.rst:0
+msgid "Returns"
+msgstr ""
+
 #: ../../api/usb/core/index.rst:85
 #: ../../api/usb/core/index.rst:149
 #: ../../api/usb/core/index.rst:202
-msgid "Return repr(self)."
+msgid "repr(self)."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:90
 #: ../../api/usb/core/index.rst:207
-msgid "Return str(self)."
+msgid "str(self)."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:95
@@ -197,7 +213,7 @@ msgid "Show all information for the interface."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:159
-msgid "Return a tuple of the interface endpoints."
+msgid "a tuple of the interface endpoints."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:164
@@ -209,7 +225,7 @@ msgid "Iterate over all endpoints of the interface."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:174
-msgid "Return the Endpoint object in the given position."
+msgid "the Endpoint object in the given position."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:188
@@ -221,7 +237,7 @@ msgid "This class contains all fields of the Configuration Descriptor according 
 msgstr ""
 
 #: ../../api/usb/core/index.rst:212
-msgid "Return a tuple of the configuration interfaces."
+msgid "a tuple of the configuration interfaces."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:217
@@ -233,7 +249,7 @@ msgid "Iterate over all interfaces of the configuration."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:227
-msgid "Return the Interface object in the given position."
+msgid "the Interface object in the given position."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:229
@@ -269,7 +285,7 @@ msgid "Timeout values for the write, read and ctrl_transfer methods are specifie
 msgstr ""
 
 #: ../../api/usb/core/index.rst:293
-msgid "Return a tuple of the device configurations."
+msgid "a tuple of the device configurations."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:299
@@ -296,7 +312,7 @@ msgid "Return the USB device's product string descriptor."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:331
-msgid "Return the parent device."
+msgid "the parent device."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:337
@@ -316,7 +332,7 @@ msgid "The configuration parameter is the bConfigurationValue field of the confi
 msgstr ""
 
 #: ../../api/usb/core/index.rst:362
-msgid "Return a Configuration object representing the current configuration set."
+msgid "a Configuration object representing the current configuration set."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:368
@@ -417,7 +433,7 @@ msgid "Iterate over all configurations of the device."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:497
-msgid "Return the Configuration object in the given position."
+msgid "the Configuration object in the given position."
 msgstr ""
 
 #: ../../api/usb/core/index.rst:521

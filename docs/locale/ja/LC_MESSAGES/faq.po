@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 09:22+0900\n"
-"PO-Revision-Date: 2020-04-16 11:09+0900\n"
+"POT-Creation-Date: 2021-08-31 14:12+0900\n"
+"PO-Revision-Date: 2021-08-31 15:07+0900\n"
 "Last-Translator: kuma35\n"
-"Language-Team: Japanese\n"
 "Language: ja_JP\n"
+"Language-Team: Japanese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../faq.rst:2
 msgid "FAQ"
@@ -47,95 +48,88 @@ msgstr "あなたの PyUSB バージョンがとても古い場合。"
 
 #: ../../faq.rst:14
 msgid "To debug what's wrong, run the following script in your environment::"
-msgstr ""
-"何が問題なのかをデバッグするには、あなたの環境で以下のスクリプトを実行しま"
-"す::"
+msgstr "何が問題なのかをデバッグするには、あなたの環境で以下のスクリプトを実行します::"
 
 #: ../../faq.rst:21
 msgid ""
-"This will print debug messages to the console. If you still have problems to "
-"figure out what's going on, please ask for help in the mailing list, "
+"This will print debug messages to the console. If you still have problems"
+" to figure out what's going on, please ask for help in the mailing list, "
 "providing the debug output."
 msgstr ""
-"これにより、デバッグメッセージがコンソールに出力されます。 それでも何が起こっ"
-"ているのか分からないときは、当該のデバッグ出力を掲載して、メーリングリストに"
-"助けを求めてください。"
+"これにより、デバッグメッセージがコンソールに出力されます。 "
+"それでも何が起こっているのか分からないときは、当該のデバッグ出力を掲載して、メーリングリストに助けを求めてください。"
 
 #: ../../faq.rst:26
 msgid "How do I install libusb on Windows?"
 msgstr "Windowsにlibusbをインストールするにはどうすればいいですか?"
 
 #: ../../faq.rst:28
-msgid ""
-"To install either libusb_ or libusb-win32_ on Windows, please use zadig_."
-msgstr ""
-"libusb_ または libusb-win32_ をWindowsにインストールするには、 zadig_ を使用"
-"してください。"
+msgid "To install either libusb_ or libusb-win32_ on Windows, please use zadig_."
+msgstr "libusb_ または libusb-win32_ をWindowsにインストールするには、 zadig_ を使用してください。"
 
-#: ../../faq.rst:35
+#: ../../faq.rst:34
+msgid ""
+"Take note Zadig does not install libusb-1.0.dll so you need to put "
+"libusb-1.0.dll in the right place of your python installation so as to "
+"use libusb 1.0 backend."
+msgstr "Zadigはlibusb-1.0.dllをインストールしないため、libusb 1.0バックエンドを使用するには、Pythonインストールの適切な場所にlibusb-1.0.dllを配置する必要があることに注意してください。"
+
+#: ../../faq.rst:39
 msgid "How do I enforce a backend?"
 msgstr "指定のバックエンドの使用を強制するにはどうすればいいですか？"
 
-#: ../../faq.rst:37
+#: ../../faq.rst:41
 msgid "Here is an example for the *libusb1* backend::"
 msgstr "*libusb1* バックエンド使用例::"
 
-#: ../../faq.rst:45
+#: ../../faq.rst:49
 msgid "How can I pass the libusb library path to the backend?"
 msgstr "libusb ライブラリ・パスをバックエンドに渡すにはどうすればよいですか？"
 
-#: ../../faq.rst:47
+#: ../../faq.rst:51
 msgid "Check the *Specify libraries by hand* section in the tutorial_."
-msgstr ""
-"tutorial_ の *Specify libraries by hand* (邦訳:ライブラリを手動で指定する) を"
-"参照。"
+msgstr "tutorial_ の *Specify libraries by hand* (邦訳:ライブラリを手動で指定する) を参照。"
 
-#: ../../faq.rst:52
+#: ../../faq.rst:56
 msgid ""
-"How (not) to call set_configuration() on a device already configured with "
-"the selected configuration?"
+"How (not) to call set_configuration() on a device already configured with"
+" the selected configuration?"
 msgstr ""
-"選択した構成(configuration)の、すでに構成(configured)されているデバイスで "
-"set_configuration() を 呼び出す/呼び出さない 方法は？"
-
-#: ../../faq.rst:54
-msgid ""
-"Typically ``set_configuration()`` is called during device initialization. "
-"The `libusb documentation`_ on ``libusb_set_configuration()`` states:"
-msgstr ""
-"通常、 ``set_configuration()`` はデバイスの初期化中に呼び出されます。 "
-"`libusb documentation`_ の ``libusb_set_configuration()`` は次のように述べて"
-"います:"
+"選択した構成(configuration)の、すでに構成(configured)されているデバイスで set_configuration() を "
+"呼び出す/呼び出さない 方法は？"
 
 #: ../../faq.rst:58
 msgid ""
-"If you call this function on a device already configured with the selected "
-"configuration, then this function will act as a lightweight device reset: it "
-"will issue a SET_CONFIGURATION request using the current configuration, "
-"causing most USB-related device state to be reset (altsetting reset to zero, "
-"endpoint halts cleared, toggles reset)."
+"Typically ``set_configuration()`` is called during device initialization."
+" The `libusb documentation`_ on ``libusb_set_configuration()`` states:"
 msgstr ""
-"あなたが、選択した構成(configuration)で既に構成(configure)されているデバイス"
-"でこの関数を呼び出すと、この関数は軽量のデバイスリセット(lightweight device "
-"reset)として機能します。すなわち、当座(current)の構成(configuration)を使用し"
-"てSET_CONFIGURATIONリクエストを発行し、ほとんどのUSB関連デバイスの状態をリ"
-"セットします(altsettingをゼロにリセットし、エンドポイントをクリアし停止、"
-"resetをトグル)。"
-
-#: ../../faq.rst:60
-msgid ""
-"Calling ``write()`` subsequently will therefore result in a timeout error."
-msgstr ""
-"したがって、その後 ``write()`` を呼び出すと、タイムアウトエラーが発生します。"
+"通常、 ``set_configuration()`` はデバイスの初期化中に呼び出されます。 `libusb documentation`_ の"
+" ``libusb_set_configuration()`` は次のように述べています:"
 
 #: ../../faq.rst:62
 msgid ""
-"One solution to this behaviour is to consider the currently active "
-"configuration, as described in the `configuration selection and handling`_. "
-"\"If the configuration we want is already active, then we don't have to "
-"select any configuration\"::"
+"If you call this function on a device already configured with the "
+"selected configuration, then this function will act as a lightweight "
+"device reset: it will issue a SET_CONFIGURATION request using the current"
+" configuration, causing most USB-related device state to be reset "
+"(altsetting reset to zero, endpoint halts cleared, toggles reset)."
 msgstr ""
-"この動作に対する解決策の一つは、 `configuration selection and handling`_ (構"
-"成(configuration)の選択と処理)で説明されているように、現在アクティブな構成を"
-"検討することです。 \"必要な構成(configuration)が既にアクティブである場合、構"
-"成(configuration)を選択する必要はありません\" ::"
+"あなたが、選択した構成(configuration)で既に構成(configure)されているデバイスでこの関数を呼び出すと、この関数は軽量のデバイスリセット(lightweight"
+" device "
+"reset)として機能します。すなわち、当座(current)の構成(configuration)を使用してSET_CONFIGURATIONリクエストを発行し、ほとんどのUSB関連デバイスの状態をリセットします(altsettingをゼロにリセットし、エンドポイントをクリアし停止、resetをトグル)。"
+
+#: ../../faq.rst:64
+msgid "Calling ``write()`` subsequently will therefore result in a timeout error."
+msgstr "したがって、その後 ``write()`` を呼び出すと、タイムアウトエラーが発生します。"
+
+#: ../../faq.rst:66
+msgid ""
+"One solution to this behaviour is to consider the currently active "
+"configuration, as described in the `configuration selection and "
+"handling`_. \"If the configuration we want is already active, then we "
+"don't have to select any configuration\"::"
+msgstr ""
+"この動作に対する解決策の一つは、 `configuration selection and handling`_ "
+"(構成(configuration)の選択と処理)で説明されているように、現在アクティブな構成を検討することです。 "
+"\"必要な構成(configuration)が既にアクティブである場合、構成(configuration)を選択する必要はありません\" ::"
+

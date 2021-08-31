@@ -7,19 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:44+0900\n"
-"PO-Revision-Date: 2020-05-02 04:36+0900\n"
+"POT-Creation-Date: 2021-08-31 18:29+0900\n"
+"PO-Revision-Date: 2021-08-31 19:00+0900\n"
 "Last-Translator: kuma35\n"
-"Language-Team: Japanese\n"
 "Language: ja_JP\n"
+"Language-Team: Japanese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../api/usb/core/index.rst:2
 msgid ":py:mod:`usb.core`"
-msgstr ""
+msgstr ":py:mod:`usb.core`"
 
 #: ../../api/usb/core/index.rst:6
 msgid "usb.core - Core USB features."
@@ -31,255 +32,247 @@ msgstr "本モジュールからは以下がエスクポートされます:"
 
 #: ../../api/usb/core/index.rst:10
 msgid "Device - a class representing a USB device."
-msgstr ""
+msgstr "Device - USBデバイスを表すクラス。"
 
 #: ../../api/usb/core/index.rst:11
 msgid "Configuration - a class representing a configuration descriptor."
-msgstr ""
+msgstr "Configuration - 構成(configuration)デスクリプターを表すクラス。"
 
 #: ../../api/usb/core/index.rst:12
 msgid "Interface - a class representing an interface descriptor."
-msgstr ""
+msgstr "Interface - インタフェース(interface)デスクリプターを表すクラス。"
 
 #: ../../api/usb/core/index.rst:13
 msgid "Endpoint - a class representing an endpoint descriptor."
-msgstr ""
+msgstr "Endpoint - エンドポイント(endpoint)デスクリプターを表すクラス。"
 
 #: ../../api/usb/core/index.rst:14
 msgid "find() - a function to find USB devices."
-msgstr ""
+msgstr "find() - USBデバイス達を探す関数"
 
 #: ../../api/usb/core/index.rst:15
 msgid "show_devices() - a function to show the devices present."
-msgstr ""
+msgstr "show_devices() - 存在するデバイスを表示する関数。"
 
 #: ../../api/usb/core/index.rst:20
-#, fuzzy
-#| msgid "Module contents"
 msgid "Module Contents"
 msgstr "モジュール内容"
 
 #: ../../api/usb/core/index.rst:23
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #: ../../api/usb/core/index.rst:25
 msgid "usb.core.Endpoint"
-msgstr ""
+msgstr "usb.core.Endpoint"
 
 #: ../../api/usb/core/index.rst:26
 msgid "usb.core.Interface"
-msgstr ""
+msgstr "usb.core.Interface"
 
 #: ../../api/usb/core/index.rst:27
 msgid "usb.core.Configuration"
-msgstr ""
+msgstr "usb.core.Configuration"
 
 #: ../../api/usb/core/index.rst:28
-#, fuzzy
-#| msgid "usb.core module"
 msgid "usb.core.Device"
-msgstr "usb.core モジュール"
+msgstr "usb.core.Device"
 
 #: ../../api/usb/core/index.rst:33
 msgid "Functions"
-msgstr ""
+msgstr "Functions"
 
 #: ../../api/usb/core/index.rst:35
-#, fuzzy
-#| msgid "usb.core module"
 msgid "usb.core.find"
-msgstr "usb.core モジュール"
+msgstr "usb.core.find"
 
 #: ../../api/usb/core/index.rst:36
-#, fuzzy
-#| msgid "usb.core module"
 msgid "usb.core.show_devices"
-msgstr "usb.core モジュール"
+msgstr "usb.core.show_devices"
 
 #: ../../api/usb/core/index.rst:40
 msgid "Bases: :py:obj:`OSError`"
-msgstr ""
+msgstr "Bases: :py:obj:`OSError`"
 
 #: ../../api/usb/core/index.rst:42
 msgid "Exception class for USB errors."
-msgstr ""
+msgstr "USBエラーの例外クラス。"
 
 #: ../../api/usb/core/index.rst:44
 msgid ""
 "Backends must raise this exception when USB related errors occur.  The "
-"backend specific error code is available through the 'backend_error_code' "
-"member variable."
+"backend specific error code is available through the 'backend_error_code'"
+" member variable."
 msgstr ""
+"USB関連のエラーが発生した場合、バックエンドはこの例外を発生させる必要があります。バックエンド固有のエラーコードは、 "
+"'backend_error_code' メンバー変数を介して利用できます。"
 
 #: ../../api/usb/core/index.rst:51
 msgid "Bases: :py:obj:`USBError`"
-msgstr ""
+msgstr "Bases: :py:obj:`USBError`"
 
 #: ../../api/usb/core/index.rst:53
 msgid "Exception class for connection timeout errors."
-msgstr ""
+msgstr "接続タイムアウトエラーの例外クラス。"
 
 #: ../../api/usb/core/index.rst:55
 msgid ""
-"Backends must raise this exception when a call on a USB connection returns a "
-"timeout error code."
-msgstr ""
+"Backends must raise this exception when a call on a USB connection "
+"returns a timeout error code."
+msgstr "USB接続での呼び出しがタイムアウトエラーコードを返す場合、バックエンドはこの例外を発生させる必要があります。"
 
 #: ../../api/usb/core/index.rst:61
 msgid "Bases: :py:obj:`ValueError`"
-msgstr ""
+msgstr "Bases: :py:obj:`ValueError`"
 
 #: ../../api/usb/core/index.rst:63
 msgid "Exception class when a valid backend is not found."
-msgstr ""
+msgstr "有効なバックエンドが見つからない場合の例外クラス。"
 
 #: ../../api/usb/core/index.rst:68 ../../api/usb/core/index.rst:132
 #: ../../api/usb/core/index.rst:186
 msgid "Bases: :py:obj:`object`"
-msgstr ""
+msgstr "Bases: :py:obj:`object`"
 
 #: ../../api/usb/core/index.rst:70
 msgid "Represent an endpoint object."
-msgstr ""
+msgstr "エンドポイントオブジェクトを表します。"
 
 #: ../../api/usb/core/index.rst:72
 msgid ""
-"This class contains all fields of the Endpoint Descriptor according to the "
-"USB Specification. You can access them as class properties. For example, to "
-"access the field bEndpointAddress of the endpoint descriptor, you can do so:"
-msgstr ""
+"This class contains all fields of the Endpoint Descriptor according to "
+"the USB Specification. You can access them as class properties. For "
+"example, to access the field bEndpointAddress of the endpoint descriptor,"
+" you can do so:"
+msgstr "このクラスには、USB仕様に従ったエンドポイントデスクリプターのすべてのフィールドが含まれています。クラスプロパティとしてアクセスできます。たとえば、エンドポイントデスクリプターのフィールドbEndpointAddressにアクセスするには、以下のようにします:"
+
+#: ../../api/usb/core/index.rst
+msgid "Returns"
+msgstr "Returns"
 
 #: ../../api/usb/core/index.rst:85 ../../api/usb/core/index.rst:149
 #: ../../api/usb/core/index.rst:202
-msgid "Return repr(self)."
-msgstr ""
+msgid "repr(self)."
+msgstr "repr(self)"
 
 #: ../../api/usb/core/index.rst:90 ../../api/usb/core/index.rst:207
-msgid "Return str(self)."
-msgstr ""
+msgid "str(self)."
+msgstr "str(self)"
 
 #: ../../api/usb/core/index.rst:95 ../../api/usb/core/index.rst:405
 msgid "Write data to the endpoint."
-msgstr ""
+msgstr "エンドポイントにデータを書き込みます。"
 
 #: ../../api/usb/core/index.rst:97
 msgid ""
-"The parameter data contains the data to be sent to the endpoint and timeout "
-"is the time limit of the operation. The transfer type and endpoint address "
-"are automatically inferred."
-msgstr ""
+"The parameter data contains the data to be sent to the endpoint and "
+"timeout is the time limit of the operation. The transfer type and "
+"endpoint address are automatically inferred."
+msgstr "パラメータデータにはエンドポイントに送信されるデータが含まれ、タイムアウトは操作の制限時間です。転送タイプとエンドポイントアドレスは自動的に推測されます。"
 
 #: ../../api/usb/core/index.rst:101 ../../api/usb/core/index.rst:416
 msgid "The method returns the number of bytes written."
-msgstr ""
+msgstr "このメソッドは、書き込まれたバイト数を返します。"
 
 #: ../../api/usb/core/index.rst:103
 msgid "For details, see the Device.write() method."
-msgstr ""
+msgstr "詳細については、Device.write()メソッドを参照してください。"
 
 #: ../../api/usb/core/index.rst:108 ../../api/usb/core/index.rst:421
 msgid "Read data from the endpoint."
-msgstr ""
+msgstr "エンドポイントからデータを読み取ります。"
 
 #: ../../api/usb/core/index.rst:110
 msgid ""
 "The parameter size_or_buffer is either the number of bytes to read or an "
-"array object where the data will be put in and timeout is the time limit of "
-"the operation. The transfer type and endpoint address are automatically "
-"inferred."
-msgstr ""
+"array object where the data will be put in and timeout is the time limit "
+"of the operation. The transfer type and endpoint address are "
+"automatically inferred."
+msgstr "パラメータsize_or_bufferは、読み取るバイト数、またはデータが挿入される配列オブジェクトのいずれかであり、timeoutは操作の時間制限です。転送タイプとエンドポイントアドレスは自動的に推測されます。"
 
 #: ../../api/usb/core/index.rst:115
 msgid ""
-"The method returns either an array object or the number of bytes actually "
-"read."
-msgstr ""
+"The method returns either an array object or the number of bytes actually"
+" read."
+msgstr "このメソッドは、配列オブジェクトまたは実際に読み取られたバイト数のいずれかを返します。"
 
 #: ../../api/usb/core/index.rst:118
 msgid "For details, see the Device.read() method."
-msgstr ""
+msgstr "詳細については、Device.read()メソッドを参照してください。"
 
 #: ../../api/usb/core/index.rst:123
 msgid "Clear the halt/status condition of the endpoint."
-msgstr ""
+msgstr "エンドポイントのhalt/status条件をクリアします。"
 
 #: ../../api/usb/core/index.rst:134
 msgid "Represent an interface object."
-msgstr ""
+msgstr "インターフェイスオブジェクトを表します。"
 
 #: ../../api/usb/core/index.rst:136
 msgid ""
-"This class contains all fields of the Interface Descriptor according to the "
-"USB Specification. You may access them as class properties. For example, to "
-"access the field bInterfaceNumber of the interface descriptor, you can do so:"
-msgstr ""
+"This class contains all fields of the Interface Descriptor according to "
+"the USB Specification. You may access them as class properties. For "
+"example, to access the field bInterfaceNumber of the interface "
+"descriptor, you can do so:"
+msgstr "このクラスには、USB仕様に従ったインターフェースデスクリプターのすべてのフィールドが含まれています。クラスプロパティとしてアクセスできます。たとえば、インターフェイスデスクリプターのフィールドbInterfaceNumberにアクセスするには、以下のようにします:"
 
 #: ../../api/usb/core/index.rst:154
-#, fuzzy
-#| msgid "Set the alternate setting of the interface."
 msgid "Show all information for the interface."
-msgstr "インターフェイスの代替設定(alternate setting)を設定します。"
+msgstr "インターフェイスのすべての情報を表示します。"
 
 #: ../../api/usb/core/index.rst:159
-msgid "Return a tuple of the interface endpoints."
-msgstr ""
+msgid "a tuple of the interface endpoints."
+msgstr "そのデバイスの構成群をタプルで返します。"
 
 #: ../../api/usb/core/index.rst:164
 msgid "Set the interface alternate setting."
-msgstr ""
+msgstr "インターフェイスの代替設定を設定します。"
 
 #: ../../api/usb/core/index.rst:169
-#, fuzzy
-#| msgid "Set the alternate setting of the interface."
 msgid "Iterate over all endpoints of the interface."
-msgstr "インターフェイスの代替設定(alternate setting)を設定します。"
+msgstr "インターフェイスのすべてのエンドポイントを繰り返し処理します。"
 
 #: ../../api/usb/core/index.rst:174
-msgid "Return the Endpoint object in the given position."
-msgstr ""
+msgid "the Endpoint object in the given position."
+msgstr "指定された位置にあるエンドポイントオブジェクト。"
 
 #: ../../api/usb/core/index.rst:188
 msgid "Represent a configuration object."
-msgstr ""
+msgstr "構成(configuration)オブジェクトを表します。"
 
 #: ../../api/usb/core/index.rst:190
 msgid ""
-"This class contains all fields of the Configuration Descriptor according to "
-"the USB Specification. You may access them as class properties.  For "
+"This class contains all fields of the Configuration Descriptor according "
+"to the USB Specification. You may access them as class properties.  For "
 "example, to access the field bConfigurationValue of the configuration "
 "descriptor, you can do so:"
-msgstr ""
+msgstr "このクラスには、USB仕様に従ったconfigurationデスクリプターのすべてのフィールドが含まれています。 クラスプロパティとしてアクセスできます。 たとえば、configurationデスクリプターのフィールドbConfigurationValueにアクセスするには、以下のようにします:"
 
 #: ../../api/usb/core/index.rst:212
-msgid "Return a tuple of the configuration interfaces."
-msgstr ""
+msgid "a tuple of the configuration interfaces."
+msgstr "そのデバイスの構成インターフェース達をタプルで返します。"
 
 #: ../../api/usb/core/index.rst:217
 msgid "Set this configuration as the active one."
-msgstr ""
+msgstr "この構成をアクティブな構成として設定します。"
 
 #: ../../api/usb/core/index.rst:222
-#, fuzzy
-#| msgid "Return a tuple of the device configurations."
 msgid "Iterate over all interfaces of the configuration."
-msgstr "そのデバイスの構成群をタプルで返します。"
+msgstr "構成(configuration)のすべてのインターフェースを反復処理します。"
 
 #: ../../api/usb/core/index.rst:227
-msgid "Return the Interface object in the given position."
-msgstr ""
+msgid "the Interface object in the given position."
+msgstr "指定された位置にあるInterfaceオブジェクト。"
 
 #: ../../api/usb/core/index.rst:229
 msgid ""
-"index is a tuple of two values with interface index and alternate setting "
-"index, respectivally. Example:"
-msgstr ""
+"index is a tuple of two values with interface index and alternate setting"
+" index, respectivally. Example:"
+msgstr "indexは、それぞれインターフェイスインデックスと代替設定インデックスを持つ2つの値のタプルです。 例:"
 
 #: ../../api/usb/core/index.rst:244
-#, fuzzy
-#| msgid "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
 msgid "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
-msgstr "Bases: :class:`usb._objfinalizer.AutoFinalizedObject`"
+msgstr "Bases: :py:obj:`usb._objfinalizer.AutoFinalizedObject`"
 
 #: ../../api/usb/core/index.rst:246
 msgid "Device object."
@@ -287,29 +280,29 @@ msgstr "Deviceオブジェクトです。"
 
 #: ../../api/usb/core/index.rst:248
 msgid ""
-"This class contains all fields of the Device Descriptor according to the USB "
-"Specification. You may access them as class properties.  For example, to "
-"access the field bDescriptorType of the device descriptor, you can do so:"
+"This class contains all fields of the Device Descriptor according to the "
+"USB Specification. You may access them as class properties.  For example,"
+" to access the field bDescriptorType of the device descriptor, you can do"
+" so:"
 msgstr ""
-"このクラスには、USB仕様に基づくデバイス・デスクリプタのすべてのフィールドが含"
-"まれています。 あなたはそれらにクラスのプロパティとしてアクセスできます。 た"
-"とえば、デバイス・デスクリプタのフィールドbDescriptorTypeにアクセスするには、"
-"次のようにします:"
+"このクラスには、USB仕様に基づくデバイス・デスクリプタのすべてのフィールドが含まれています。 "
+"あなたはそれらにクラスのプロパティとしてアクセスできます。 "
+"たとえば、デバイス・デスクリプタのフィールドbDescriptorTypeにアクセスするには、次のようにします:"
 
 #: ../../api/usb/core/index.rst:257
 msgid ""
-"Additionally, the class provides methods to communicate with the hardware. "
-"Typically, an application will first call the set_configuration() method to "
-"put the device in a known configured state, optionally call the "
-"set_interface_altsetting() to select the alternate setting (if there is more "
-"than one) of the interface used, and call the write() and read() methods to "
-"send and receive data, respectively."
+"Additionally, the class provides methods to communicate with the "
+"hardware. Typically, an application will first call the "
+"set_configuration() method to put the device in a known configured state,"
+" optionally call the set_interface_altsetting() to select the alternate "
+"setting (if there is more than one) of the interface used, and call the "
+"write() and read() methods to send and receive data, respectively."
 msgstr ""
-"さらに、クラスはハードウェアと通信するメソッドを提供します。 通常、アプリケー"
-"ションは最初にset_configuration()メソッドを呼び出してデバイスを既知の構成済み"
-"状態(a known conifgured state)にし、代替設定が複数ある場合、オプションで"
-"set_interface_altsetting()を呼び出して、使用するインターフェイスの代替設定を"
-"選択し、 write() や read() メソッドでデータを送受信します。"
+"さらに、クラスはハードウェアと通信するメソッドを提供します。 "
+"通常、アプリケーションは最初にset_configuration()メソッドを呼び出してデバイスを既知の構成済み状態(a known "
+"conifgured "
+"state)にし、代替設定が複数ある場合、オプションでset_interface_altsetting()を呼び出して、使用するインターフェイスの代替設定を選択し、"
+" write() や read() メソッドでデータを送受信します。"
 
 #: ../../api/usb/core/index.rst:264
 msgid "When working in a new hardware, the first try could be like this:"
@@ -317,65 +310,61 @@ msgstr "新しいハードウェアで作業する場合、最初の試行は次
 
 #: ../../api/usb/core/index.rst:271
 msgid ""
-"This sample finds the device of interest (myVendorId and myProductId should "
-"be replaced by the corresponding values of your device), then configures the "
-"device (by default, the configuration value is 1, which is a typical value "
-"for most devices) and then writes some data to the endpoint 0x01."
+"This sample finds the device of interest (myVendorId and myProductId "
+"should be replaced by the corresponding values of your device), then "
+"configures the device (by default, the configuration value is 1, which is"
+" a typical value for most devices) and then writes some data to the "
+"endpoint 0x01."
 msgstr ""
-"このサンプルでは、対象のデバイスを見つけ（myVendorIdおよびmyProductIdをデバイ"
-"スの対応する値で置き換える必要があります）、デバイスを構成し（デフォルトで"
-"は、構成値(configuration value)は1であり、ほとんどのデバイスの一般的な値で"
-"す）、エンドポイント0x01へデータを幾つか書き込みます。"
+"このサンプルでは、対象のデバイスを見つけ（myVendorIdおよびmyProductIdをデバイスの対応する値で置き換える必要があります）、デバイスを構成し（デフォルトでは、構成値(configuration"
+" value)は1であり、ほとんどのデバイスの一般的な値です）、エンドポイント0x01へデータを幾つか書き込みます。"
 
 #: ../../api/usb/core/index.rst:276
 msgid ""
-"Timeout values for the write, read and ctrl_transfer methods are specified "
-"in miliseconds. If the parameter is omitted, Device.default_timeout value "
-"will be used instead. This property can be set by the user at anytime."
-msgstr ""
-"書き込み、読み取り、およびctrl_transferメソッドのタイムアウト値はミリ秒単位で"
-"指定します。このパラメーターを省略した場合、代わりにDevice.default_timeout値"
-"が使用されます。Device.default_timeoutプロパティは、ユーザがいつでも設定でき"
-"ます。"
+"Timeout values for the write, read and ctrl_transfer methods are "
+"specified in miliseconds. If the parameter is omitted, "
+"Device.default_timeout value will be used instead. This property can be "
+"set by the user at anytime."
+msgstr "書き込み、読み取り、およびctrl_transferメソッドのタイムアウト値はミリ秒単位で指定します。このパラメーターを省略した場合、代わりにDevice.default_timeout値が使用されます。Device.default_timeoutプロパティは、ユーザがいつでも設定できます。"
 
 #: ../../api/usb/core/index.rst:293
-msgid "Return a tuple of the device configurations."
+msgid "a tuple of the device configurations."
 msgstr "そのデバイスの構成群をタプルで返します。"
 
 #: ../../api/usb/core/index.rst:299
 msgid "Return the USB device's supported language ID codes."
-msgstr ""
+msgstr "USBデバイスでサポートされている言語IDコードを返します。"
 
 #: ../../api/usb/core/index.rst:301
 msgid ""
 "These are 16-bit codes familiar to Windows developers, where for example "
-"instead of en-US you say 0x0409. USB_LANGIDS.pdf on the usb.org developer "
-"site for more info. String requests using a LANGID not in this array should "
-"not be sent to the device."
-msgstr ""
+"instead of en-US you say 0x0409. USB_LANGIDS.pdf on the usb.org developer"
+" site for more info. String requests using a LANGID not in this array "
+"should not be sent to the device."
+msgstr "これらは、Windows開発者に馴染みのある16ビットコードです。たとえば、en-USの代わりに0x0409と言います。詳細については、usb.org開発者サイトのUSB_LANGIDS.pdfを参照してください。 この配列にないLANGIDを使用する文字列要求は、デバイスに送信しないでください。"
 
 #: ../../api/usb/core/index.rst:306 ../../api/usb/core/index.rst:315
 #: ../../api/usb/core/index.rst:324 ../../api/usb/core/index.rst:339
 msgid ""
-"This property will cause some USB traffic the first time it is accessed and "
-"cache the resulting value for future use."
-msgstr ""
+"This property will cause some USB traffic the first time it is accessed "
+"and cache the resulting value for future use."
+msgstr "このプロパティは、最初にアクセスされたときに一部のUSBトラフィックを引き起こし、将来の使用のために結果の値をキャッシュします。"
 
 #: ../../api/usb/core/index.rst:313
 msgid "Return the USB device's serial number string descriptor."
-msgstr ""
+msgstr "USBデバイスのシリアル番号文字列デスクリプター(serial number string descriptor)を返します。"
 
 #: ../../api/usb/core/index.rst:322
 msgid "Return the USB device's product string descriptor."
-msgstr ""
+msgstr "USBデバイスの製品文字列記述子(product string descriptor)を返します。"
 
 #: ../../api/usb/core/index.rst:331
-msgid "Return the parent device."
-msgstr ""
+msgid "the parent device."
+msgstr "親デバイス。"
 
 #: ../../api/usb/core/index.rst:337
 msgid "Return the USB device's manufacturer string descriptor."
-msgstr ""
+msgstr "USBデバイスの製造元の文字列記述子(manufacturer string descriptor)を返します。"
 
 #: ../../api/usb/core/index.rst:346
 msgid "Return the backend being used by the device."
@@ -383,50 +372,50 @@ msgstr "そのデバイスが使っているバックエンドを返します。
 
 #: ../../api/usb/core/index.rst:351
 msgid "Set the active configuration."
-msgstr ""
+msgstr "アクティブなconfigurationをセットします。"
 
 #: ../../api/usb/core/index.rst:353
 msgid ""
 "The configuration parameter is the bConfigurationValue field of the "
 "configuration you want to set as active. If you call this method without "
-"parameter, it will use the first configuration found.  As a device hardly "
-"ever has more than one configuration, calling the method without arguments "
-"is enough to get the device ready."
-msgstr ""
+"parameter, it will use the first configuration found.  As a device hardly"
+" ever has more than one configuration, calling the method without "
+"arguments is enough to get the device ready."
+msgstr "configurationパラメーターは、アクティブとして設定するconfigurationのbConfigurationValueフィールドです。 このメソッドをパラメーターなしで呼び出すと、最初に見つかったconfigurationが使用されます。デバイスに複数のconfigurationがあることはほとんどないため、引数なしでメソッドを呼び出すだけでデバイスを準備できます。"
 
 #: ../../api/usb/core/index.rst:362
-msgid ""
-"Return a Configuration object representing the current configuration set."
-msgstr ""
+msgid "a Configuration object representing the current configuration set."
+msgstr "現在の構成セットを表す構成オブジェクト。"
 
 #: ../../api/usb/core/index.rst:368
 msgid "Set the alternate setting for an interface."
-msgstr ""
+msgstr "インターフェイスの代替設定を設定します。"
 
 #: ../../api/usb/core/index.rst:370
 msgid ""
 "When you want to use an interface and it has more than one alternate "
 "setting, you should call this method to select the appropriate alternate "
-"setting. If you call the method without one or the two parameters, it will "
-"be selected the first one found in the Device in the same way of the "
-"set_configuration method."
-msgstr ""
+"setting. If you call the method without one or the two parameters, it "
+"will be selected the first one found in the Device in the same way of the"
+" set_configuration method."
+msgstr "あなたが、インターフェイスを使用する必要があり、そのインターフェイスに複数の代替設定がある場合は、あなたはこのメソッドを呼び出して適切な代替設定を選択する必要があります。 1つまたは2つのパラメーターを指定せずにメソッドを呼び出すと、set_configurationメソッドと同じ方法で、デバイスで最初に見つかったメソッドが選択されます。"
 
 #: ../../api/usb/core/index.rst:376
 msgid ""
-"Commonly, an interface has only one alternate setting and this call is not "
-"necessary. For most devices, either it has more than one alternate setting "
-"or not, it is not harmful to make a call to this method with no arguments, "
-"as devices will silently ignore the request when there is only one alternate "
-"setting, though the USB Spec allows devices with no additional alternate "
-"setting return an error to the Host in response to a SET_INTERFACE request."
-msgstr ""
+"Commonly, an interface has only one alternate setting and this call is "
+"not necessary. For most devices, either it has more than one alternate "
+"setting or not, it is not harmful to make a call to this method with no "
+"arguments, as devices will silently ignore the request when there is only"
+" one alternate setting, though the USB Spec allows devices with no "
+"additional alternate setting return an error to the Host in response to a"
+" SET_INTERFACE request."
+msgstr "通常、インターフェイスには代替設定が1つしかないため、この呼び出しは必要ありません。 ほとんどのデバイスでは、代替設定が複数あるかどうかに関係なく、引数なしでこのメソッドを呼び出すことは有害ではありません。USB仕様では許可されていますが、代替設定が1つしかない場合、デバイスは要求をサイレントに無視するためです。追加の代替設定がないデバイスは、SET_INTERFACE要求に応答してホストにエラーを返します。"
 
 #: ../../api/usb/core/index.rst:384
 msgid ""
-"If you are in doubt, you may want to call it with no arguments wrapped by a "
-"try/except clause:"
-msgstr ""
+"If you are in doubt, you may want to call it with no arguments wrapped by"
+" a try/except clause:"
+msgstr "疑わしい場合は、try/except句でラップされた引数なしで呼び出すことをお勧めします:"
 
 #: ../../api/usb/core/index.rst:395
 msgid "Clear the halt/stall condition for the endpoint ep."
@@ -434,40 +423,41 @@ msgstr "epに指定したエンドポイントの halt/stall 状態をクリア�
 
 #: ../../api/usb/core/index.rst:400
 msgid "Reset the device."
-msgstr ""
+msgstr "デバイスをリセットします。"
 
 #: ../../api/usb/core/index.rst:407
 msgid ""
 "This method is used to send data to the device. The endpoint parameter "
 "corresponds to the bEndpointAddress member whose endpoint you want to "
 "communicate with."
-msgstr ""
+msgstr "このメソッドは、デバイスにデータを送信するために使用されます。 エンドポイントパラメータは、エンドポイントと通信するbEndpointAddressメンバーに対応します。"
 
 #: ../../api/usb/core/index.rst:411
 msgid ""
-"The data parameter should be a sequence like type convertible to the array "
-"type (see array module)."
-msgstr ""
+"The data parameter should be a sequence like type convertible to the "
+"array type (see array module)."
+msgstr "データパラメータは、配列型に変換可能な型のようなシーケンスである必要があります（配列モジュールを参照）。"
 
 #: ../../api/usb/core/index.rst:414 ../../api/usb/core/index.rst:429
 msgid "The timeout is specified in miliseconds."
-msgstr ""
+msgstr "タイムアウトはミリ秒単位で指定されます。"
 
 #: ../../api/usb/core/index.rst:423
 msgid ""
-"This method is used to receive data from the device. The endpoint parameter "
-"corresponds to the bEndpointAddress member whose endpoint you want to "
-"communicate with. The size_or_buffer parameter either tells how many bytes "
-"you want to read or supplies the buffer to receive the data (it *must* be an "
-"object of the type array)."
-msgstr ""
+"This method is used to receive data from the device. The endpoint "
+"parameter corresponds to the bEndpointAddress member whose endpoint you "
+"want to communicate with. The size_or_buffer parameter either tells how "
+"many bytes you want to read or supplies the buffer to receive the data "
+"(it *must* be an object of the type array)."
+msgstr "このメソッドは、デバイスからデータを受信するために使用されます。 エンドポイントパラメータは、エンドポイントと通信するbEndpointAddressメンバーに対応します。 size_or_bufferパラメーターは、読み取るバイト数を指定するか、データを受信するためのバッファーを提供します（配列型のオブジェクトである必要があります）。"
 
 #: ../../api/usb/core/index.rst:431
 msgid ""
-"If the size_or_buffer parameter is the number of bytes to read, the method "
-"returns an array object with the data read. If the size_or_buffer parameter "
-"is an array object, it returns the number of bytes actually read."
-msgstr ""
+"If the size_or_buffer parameter is the number of bytes to read, the "
+"method returns an array object with the data read. If the size_or_buffer "
+"parameter is an array object, it returns the number of bytes actually "
+"read."
+msgstr "size_or_bufferパラメーターが読み取るバイト数である場合、メソッドは読み取られたデータを含む配列オブジェクトを返します。 size_or_bufferパラメーターが配列オブジェクトの場合、実際に読み取られたバイト数を返します。"
 
 #: ../../api/usb/core/index.rst:439
 msgid "Do a control transfer on the endpoint 0."
@@ -477,334 +467,171 @@ msgstr "エンドポイント0で制御転送(control transfer)を行います�
 msgid ""
 "This method is used to issue a control transfer over the endpoint 0 "
 "(endpoint 0 is required to always be a control endpoint)."
-msgstr ""
-"このメソッドは、エンドポイント0を介して制御転送を発行するために使用します（エ"
-"ンドポイント0は常に制御エンドポイントである必要があります）。"
+msgstr "このメソッドは、エンドポイント0を介して制御転送を発行するために使用します（エンドポイント0は常に制御エンドポイントである必要があります）。"
 
 #: ../../api/usb/core/index.rst:444
 msgid ""
-"The parameters bmRequestType, bRequest, wValue and wIndex are the same of "
-"the USB Standard Control Request format."
+"The parameters bmRequestType, bRequest, wValue and wIndex are the same of"
+" the USB Standard Control Request format."
 msgstr ""
-"パラメータbmRequestType、bRequest、wValue、wIndexは、USB標準制御要求"
-"(Standard Control Request)フォーマットと同じです。"
+"パラメータbmRequestType、bRequest、wValue、wIndexは、USB標準制御要求(Standard Control "
+"Request)フォーマットと同じです。"
 
 #: ../../api/usb/core/index.rst:447
 msgid ""
-"Control requests may or may not have a data payload to write/read. In cases "
-"which it has, the direction bit of the bmRequestType field is used to infer "
-"the desired request direction. For host to device requests (OUT), "
-"data_or_wLength parameter is the data payload to send, and it must be a "
-"sequence type convertible to an array object. In this case, the return value "
-"is the number of bytes written in the data payload. For device to host "
-"requests (IN), data_or_wLength is either the wLength parameter of the "
-"control request specifying the number of bytes to read in data payload, and "
-"the return value is an array object with data read, or an array object which "
-"the data will be read to, and the return value is the number of bytes read."
-msgstr ""
+"Control requests may or may not have a data payload to write/read. In "
+"cases which it has, the direction bit of the bmRequestType field is used "
+"to infer the desired request direction. For host to device requests "
+"(OUT), data_or_wLength parameter is the data payload to send, and it must"
+" be a sequence type convertible to an array object. In this case, the "
+"return value is the number of bytes written in the data payload. For "
+"device to host requests (IN), data_or_wLength is either the wLength "
+"parameter of the control request specifying the number of bytes to read "
+"in data payload, and the return value is an array object with data read, "
+"or an array object which the data will be read to, and the return value "
+"is the number of bytes read."
+msgstr "制御要求には、書き込み/読み取り用のデータペイロードがある場合とない場合があります。ある場合は、bmRequestTypeフィールドの方向ビットを使用して、目的の要求方向を推測します。ホストからデバイスへの要求（OUT）の場合、data_or_wLengthパラメーターは送信するデータペイロードであり、配列オブジェクトに変換可能なシーケンスタイプである必要があります。 この場合、戻り値はデータペイロードに書き込まれたバイト数です。 デバイスからホストへの要求（IN）の場合、data_or_wLengthは、データペイロードで読み取るバイト数を指定する制御要求のwLengthパラメーターであり、その戻り値はデータが読み取られる配列オブジェクトです。またはdata_or_wLengthはデータが読み取られる配列オブジェクトであり、戻り値は読み取られたバイト数です。"
 
 #: ../../api/usb/core/index.rst:463
 msgid "Determine if there is kernel driver associated with the interface."
-msgstr ""
+msgstr "インターフェイスに関連付けられているカーネルドライバがあるかどうかを確認します。"
 
 #: ../../api/usb/core/index.rst:465
 msgid "If a kernel driver is active, the object will be unable to perform I/O."
-msgstr ""
+msgstr "カーネルドライバがアクティブな場合、オブジェクトは入出力を実行できません。"
 
 #: ../../api/usb/core/index.rst:468
 msgid "The interface parameter is the device interface number to check."
-msgstr ""
+msgstr "interfaceパラメータは、チェックするデバイスインターフェイス番号です。"
 
 #: ../../api/usb/core/index.rst:473
 msgid "Detach a kernel driver."
-msgstr ""
+msgstr "カーネルドライバーを取り外します(detach)。"
 
 #: ../../api/usb/core/index.rst:475
 msgid "If successful, you will then be able to perform I/O."
-msgstr ""
+msgstr "成功すると、あなたは入出力を実行できるようになります。"
 
 #: ../../api/usb/core/index.rst:477
 msgid ""
-"The interface parameter is the device interface number to detach the driver "
-"from."
-msgstr ""
+"The interface parameter is the device interface number to detach the "
+"driver from."
+msgstr "interfaceパラメータは、ドライバを取り外す(detach)デバイスインターフェイス番号です。"
 
 #: ../../api/usb/core/index.rst:483
 msgid ""
-"Re-attach an interface's kernel driver, which was previously detached using "
-"detach_kernel_driver()."
+"Re-attach an interface's kernel driver, which was previously detached "
+"using detach_kernel_driver()."
 msgstr ""
-"以前にdetach_kernel_driver()を使って切り離し(detach)した、指定のインターフェ"
-"イスのカーネル・ドライバを再接続(re-attach)します。"
+"以前にdetach_kernel_driver()を使って切り離し(detach)した、指定のインターフェイスのカーネル・ドライバを再接続(re-"
+"attach)します。"
 
 #: ../../api/usb/core/index.rst:486
 msgid ""
-"The interface parameter is the device interface number to attach the driver "
-"to."
-msgstr ""
-"interface パラメータは、ドライバを接続したい、デバイスのインターフェイス番号"
-"を指定します。"
+"The interface parameter is the device interface number to attach the "
+"driver to."
+msgstr "interface パラメータは、ドライバを接続したい、デバイスのインターフェイス番号を指定します。"
 
 #: ../../api/usb/core/index.rst:492
-#, fuzzy
-#| msgid "Get the current active configuration of the device."
 msgid "Iterate over all configurations of the device."
-msgstr ""
-"デバイスの、当座(current)でアクティブな構成(configuration)を取得します。"
+msgstr "デバイスのすべての構成(configuration)を繰り返します。"
 
 #: ../../api/usb/core/index.rst:497
-msgid "Return the Configuration object in the given position."
-msgstr ""
+msgid "the Configuration object in the given position."
+msgstr "指定された位置にある構成オブジェクト。"
 
 #: ../../api/usb/core/index.rst:521
 msgid "Find an USB device and return it."
-msgstr ""
+msgstr "USBデバイスを見つけてそれを返します。"
 
 #: ../../api/usb/core/index.rst:523
 msgid ""
 "find() is the function used to discover USB devices.  You can pass as "
 "arguments any combination of the USB Device Descriptor fields to match a "
 "device. For example:"
-msgstr ""
+msgstr "find（）は、USBデバイスを検出するために使用される関数です。デバイスに一致するように、USBデバイスデスクリプターフィールドの任意の組み合わせを引数として渡すことができます。例えば:"
 
 #: ../../api/usb/core/index.rst:531
 msgid ""
-"will return the Device object for the device with idVendor field equals to "
-"0x3f4 and idProduct equals to 0x2009."
-msgstr ""
+"will return the Device object for the device with idVendor field equals "
+"to 0x3f4 and idProduct equals to 0x2009."
+msgstr "idVendorフィールドが0x3f4に等しく、idProductが0x2009に等しいデバイスのDeviceオブジェクトを返します。"
 
 #: ../../api/usb/core/index.rst:534
 msgid ""
-"If there is more than one device which matchs the criteria, the first one "
-"found will be returned. If a matching device cannot be found the function "
-"returns None. If you want to get all devices, you can set the parameter "
-"find_all to True, then find will return an iterator with all matched "
-"devices. If no matching device is found, it will return an empty iterator. "
-"Example:"
-msgstr ""
+"If there is more than one device which matchs the criteria, the first one"
+" found will be returned. If a matching device cannot be found the "
+"function returns None. If you want to get all devices, you can set the "
+"parameter find_all to True, then find will return an iterator with all "
+"matched devices. If no matching device is found, it will return an empty "
+"iterator. Example:"
+msgstr "基準に一致するデバイスが複数ある場合は、最初に見つかったデバイスが返されます。一致するデバイスが見つからない場合、関数はNoneを返します。すべてのデバイスを取得する場合は、パラメーターfind_allをTrueに設定すると、findは一致するすべてのデバイスのイテレーターを返します。一致するデバイスが見つからない場合は、空のイテレータが返されます。 例:"
 
 #: ../../api/usb/core/index.rst:545
 msgid ""
-"This call will get all the USB printers connected to the system.  (actually "
-"may be not, because some devices put their class information in the "
-"Interface Descriptor)."
-msgstr ""
+"This call will get all the USB printers connected to the system.  "
+"(actually may be not, because some devices put their class information in"
+" the Interface Descriptor)."
+msgstr "この呼び出しにより、すべてのUSBプリンターがシステムに接続されます。(一部のデバイスはクラス情報をインターフェイスデスクリプターに配置するため、実際にはそうではない場合があります)。"
 
 #: ../../api/usb/core/index.rst:549
 msgid "You can also use a customized match criteria:"
-msgstr ""
+msgstr "あなたはカスタマイズされた一致基準を使用することもできます:"
 
 #: ../../api/usb/core/index.rst:555
-msgid ""
-"A more accurate printer finder using a customized match would be like so:"
-msgstr ""
+msgid "A more accurate printer finder using a customized match would be like so:"
+msgstr "カスタマイズされた一致を使用したより正確なプリンター探索器は、以下のようになります:"
 
 #: ../../api/usb/core/index.rst:572
 msgid ""
-"Now even if the device class code is in the interface descriptor the printer "
-"will be found."
-msgstr ""
+"Now even if the device class code is in the interface descriptor the "
+"printer will be found."
+msgstr "これで、デバイスクラスコードがインターフェイスデスクリプターにある場合でも、プリンタが見つかります。"
 
 #: ../../api/usb/core/index.rst:575
 msgid ""
-"You can combine a customized match with device descriptor fields. In this "
-"case, the fields must match and the custom_match must return True. In the "
-"our previous example, if we would like to get all printers belonging to the "
-"manufacturer 0x3f4, the code would be like so:"
-msgstr ""
+"You can combine a customized match with device descriptor fields. In this"
+" case, the fields must match and the custom_match must return True. In "
+"the our previous example, if we would like to get all printers belonging "
+"to the manufacturer 0x3f4, the code would be like so:"
+msgstr "カスタマイズされた一致をデバイスデスクリプターフィールドと組み合わせることができます。この場合、フィールドは一致する必要があり、custom_matchはTrueを返す必要があります。前の例では、製造元0x3f4に属するすべてのプリンターを取得する場合、コードは以下のようになります:"
 
 #: ../../api/usb/core/index.rst:584
 msgid ""
-"If you want to use find as a 'list all devices' function, just call it with "
-"find_all = True:"
-msgstr ""
+"If you want to use find as a 'list all devices' function, just call it "
+"with find_all = True:"
+msgstr "「すべてのデバイスを一覧表示する」関数としてfindを使用する場合は、find_all = Trueで呼び出します:"
 
 #: ../../api/usb/core/index.rst:587
 msgid "devices = list(find(find_all=True))"
-msgstr ""
+msgstr "devices = list(find(find_all=True))"
 
 #: ../../api/usb/core/index.rst:589
 msgid "Finally, you can pass a custom backend to the find function:"
-msgstr ""
+msgstr "最後に、カスタムバックエンドをfind関数に渡すことができます:"
 
 #: ../../api/usb/core/index.rst:591
 msgid "find(backend = MyBackend())"
-msgstr ""
+msgstr "find(backend = MyBackend())"
 
 #: ../../api/usb/core/index.rst:593
 msgid ""
-"PyUSB has builtin backends for libusb 0.1, libusb 1.0 and OpenUSB.  If you "
-"do not supply a backend explicitly, find() function will select one of the "
-"predefineds backends according to system availability."
-msgstr ""
+"PyUSB has builtin backends for libusb 0.1, libusb 1.0 and OpenUSB.  If "
+"you do not supply a backend explicitly, find() function will select one "
+"of the predefineds backends according to system availability."
+msgstr "PyUSBには、libusb 0.1、libusb 1.0、およびOpenUSB用のバックエンドが組み込まれています。 バックエンドを明示的に指定しない場合、find()関数は、システムの可用性に応じて、事前定義されたバックエンドの1つを選択します。"
 
 #: ../../api/usb/core/index.rst:597
 msgid "Backends are explained in the usb.backend module."
-msgstr ""
+msgstr "バックエンドについては、usb.backendモジュールで説明されています。"
 
 #: ../../api/usb/core/index.rst:602
 msgid "Show information about connected devices."
-msgstr ""
+msgstr "接続されているデバイスに関する情報を表示します。"
 
 #: ../../api/usb/core/index.rst:604
 msgid ""
-"The verbose flag sets to verbose or not. \\*\\*kwargs are passed directly to "
-"the find() function."
-msgstr ""
+"The verbose flag sets to verbose or not. \\*\\*kwargs are passed directly"
+" to the find() function."
+msgstr "verbose フラグは、verbose or not に設定されます。 \\*\\  kwargsはfind()関数に直接渡されます。"
 
-#~ msgid "usb package"
-#~ msgstr "usb パッケージ"
-
-#~ msgid "Subpackages"
-#~ msgstr "サブパッケージ"
-
-#~ msgid "Submodules"
-#~ msgstr "サブモジュール"
-
-#~ msgid "usb.control module"
-#~ msgstr "usb.control モジュール"
-
-#~ msgid "usb.control - USB standard control requests"
-#~ msgstr "usb.control - USB 標準制御要求(standard control requests)"
-
-#~ msgid ""
-#~ "get_status - get recipeint status clear_feature - clear a recipient "
-#~ "feature set_feature - set a recipient feature get_descriptor - get a "
-#~ "device descriptor set_descriptor - set a device descriptor "
-#~ "get_configuration - get a device configuration set_configuration - set a "
-#~ "device configuration get_interface - get a device interface set_interface "
-#~ "- set a device interface"
-#~ msgstr ""
-#~ "get_status - 受信者(recipeint)ステータスの取得、 clear_feature - 受信者"
-#~ "(recipient)機能(feature)のクリア、 set_feature - 受信者(recipient)機能"
-#~ "(feature)の設定、 get_descriptor - デバイス・デスクリプタ取得、 "
-#~ "set_descriptor - デバイス・デスクリプタ設定、 get_configuration - デバイス"
-#~ "構成(configuration)の取得、 set_configuration - デバイス構成"
-#~ "(configuration)の設定 get_interface - デバイス・インターフェイス取得、 "
-#~ "set_interface - デバイス・インターフェイス設定"
-
-#~ msgid "Return the status for the specified recipient."
-#~ msgstr "指定の受信者(recipient)のステータスを返す。"
-
-#~ msgid "dev is the Device object to which the request will be sent to."
-#~ msgstr "dev は、リクエストの送信先となるデバイス・オブジェクトです。"
-
-#~ msgid ""
-#~ "The recipient can be None (on which the status will be queried from the "
-#~ "device), an Interface or Endpoint descriptors."
-#~ msgstr ""
-#~ "受信者(recipient)は、 None (デバイスからステータスが照会される) または "
-#~ "Interface または Endpoint デスクリプタにすることができます。"
-
-#~ msgid ""
-#~ "The status value is returned as an integer with the lower word being the "
-#~ "two bytes status value."
-#~ msgstr ""
-#~ "ステータス値は整数として返され、下位ワードは2バイトのステータス値からなり"
-#~ "ます。"
-
-#~ msgid "Clear/disable a specific feature."
-#~ msgstr "指定の機能(feature)をクリアまたは無効にします。"
-
-#~ msgid "feature is the feature you want to disable."
-#~ msgstr "featureには、あなたが無効にしたい機能(feature)を指定します。"
-
-#~ msgid "Set/enable a specific feature."
-#~ msgstr "指定の機能(feature)を設定または有効化します。"
-
-#~ msgid "feature is the feature you want to enable."
-#~ msgstr "featureにはあなたが有効にしたい機能(feature)を指定します。"
-
-#~ msgid "Return the specified descriptor."
-#~ msgstr "指定のデスクリプタを返す。"
-
-#~ msgid "desc_size is the descriptor size."
-#~ msgstr "desc_sizeはデスクリプタのサイズを指定します。"
-
-#~ msgid ""
-#~ "desc_type and desc_index are the descriptor type and index, respectively. "
-#~ "wIndex index is used for string descriptors and represents the Language "
-#~ "ID. For other types of descriptors, it is zero."
-#~ msgstr ""
-#~ "desc_typeとdesc_indexは、それぞれデスクリプタのタイプとインデックスです。 "
-#~ "wIndexインデックスは文字列デスクリプタに使用され、言語IDを表します。文字列"
-#~ "デスクリプタ以外タイプの記述子の場合、wIndexはゼロです。"
-
-#~ msgid "Update an existing descriptor or add a new one."
-#~ msgstr ""
-#~ "存在するデスクリプタを更新するか、または新しいデスクリプタを追加します。"
-
-#~ msgid ""
-#~ "The desc parameter is the descriptor to be sent to the device. desc_type "
-#~ "and desc_index are the descriptor type and index, respectively. wIndex "
-#~ "index is used for string descriptors and represents the Language ID. For "
-#~ "other types of descriptors, it is zero."
-#~ msgstr ""
-#~ "descほげほげなパラメータ達は、デバイスに送信されるデスクリプタです。 "
-#~ "desc_typeとdesc_indexは、それぞれデスクリプタのタイプとインデックスです。 "
-#~ "wIndexインデックスは文字列デスクリプタに使用され、言語IDを表します。 文字"
-#~ "列デスクリプタ以外のタイプのデスクリプタの場合、wIndexはゼロです。"
-
-#~ msgid ""
-#~ "This function differs from the Device.get_active_configuration method "
-#~ "because the later may use cached data, while this function always does a "
-#~ "device request."
-#~ msgstr ""
-#~ "キャッシュされたデータを使用する可能性がある Device."
-#~ "get_active_configuration メソッドとは異なり、この関数は常にデバイス・リク"
-#~ "エストを実行します。"
-
-#~ msgid "Set the current device configuration."
-#~ msgstr "当座(current)とする構成(configuration)を設定します。"
-
-#~ msgid "Get the current alternate setting of the interface."
-#~ msgstr ""
-#~ "インターフェイスの代替設定(alternate setting)の当座(current)を取得します。"
-
-#~ msgid ""
-#~ "Device - a class representing a USB device. Configuration - a class "
-#~ "representing a configuration descriptor. Interface - a class representing "
-#~ "an interface descriptor. Endpoint - a class representing an endpoint "
-#~ "descriptor. find() - a function to find USB devices. show_devices() - a "
-#~ "function to show the devices present."
-#~ msgstr ""
-#~ "Device - USBデバイスを表すクラス、 Configuration - 構成(configuration)デス"
-#~ "クリプタを表すクラス、 Interface - インターフェイス・デスクリプタを表すク"
-#~ "ラス、 Endpoint - エンドポイント・デスクリプタを表すクラス、 find() - USB"
-#~ "デバイスを探す関数、show_devices() - 存在するデバイスを表示する関数"
-
-#~ msgid "usb.legacy module"
-#~ msgstr "usb.legacy モジュール"
-
-#~ msgid "usb.libloader module"
-#~ msgstr "usb.libloader モジュール"
-
-#~ msgid "usb.util module"
-#~ msgstr "usb.util モジュール"
-
-#~ msgid "usb.util - Utility functions."
-#~ msgstr "usb.util - ユーティリティ関数群。"
-
-#~ msgid "PyUSB - Easy USB access in Python"
-#~ msgstr "PyUSB - Pythonから簡単にUSBにアクセスできるようにします。"
-
-#~ msgid "This package exports the following modules and subpackages:"
-#~ msgstr "本パッケージはイカのモジュールとサブバッケージをエクスポートします:"
-
-#~ msgid ""
-#~ "core - the main USB implementation legacy - the compatibility layer with "
-#~ "0.x version backend - the support for backend implementations. control - "
-#~ "USB standard control requests. libloader - helper module for backend "
-#~ "library loading."
-#~ msgstr ""
-#~ "core - 主たるUSB実装、 legacy - 0.xバージョン利用者互換レイヤ、backend - "
-#~ "バックエンド実装のサポート、 control - USB標準制御要求(standard control "
-#~ "requests)、 libloader - バックエンドライブラリ読み込みのためのヘルパーモ"
-#~ "ジュール"
-
-#~ msgid ""
-#~ "Since version 1.0, main PyUSB implementation lives in the 'usb.core' "
-#~ "module. New applications are encouraged to use it."
-#~ msgstr ""
-#~ "バージョン1.0以降では、メインのPyUSB実装は「usb.core」モジュールにありま"
-#~ "す。 新しいアプリケーションではそれを使用することをお勧めします。"
