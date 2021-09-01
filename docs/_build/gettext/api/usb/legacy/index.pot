@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:44+0900\n"
+"POT-Creation-Date: 2021-09-02 00:34+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,12 +230,8 @@ msgstr ""
 msgid "an alternate setting number or an Interface object."
 msgstr ""
 
-#: ../../api/usb/legacy/index.rst:464
-msgid "Retrieve the string descriptor specified by index"
-msgstr ""
-
-#: ../../api/usb/legacy/index.rst:464
-msgid "and langid from a device."
+#: ../../api/usb/legacy/index.rst:463
+msgid "Retrieve the string descriptor specified by index and langid from a device."
 msgstr ""
 
 #: ../../api/usb/legacy/index.rst:466
@@ -270,12 +266,8 @@ msgstr ""
 msgid "ignored."
 msgstr ""
 
-#: ../../api/usb/legacy/index.rst:486
-msgid "Detach a kernel driver from the interface (if one is attached,"
-msgstr ""
-
-#: ../../api/usb/legacy/index.rst:486
-msgid "we have permission and the operation is supported by the OS)"
+#: ../../api/usb/legacy/index.rst:485
+msgid "Detach a kernel driver from the interface (if one is attached, we have permission and the operation is supported by the OS)"
 msgstr ""
 
 #: ../../api/usb/legacy/index.rst:496

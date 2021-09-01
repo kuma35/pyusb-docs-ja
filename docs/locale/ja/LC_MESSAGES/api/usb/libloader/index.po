@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the pyusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pyusb \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 13:44+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-09-02 01:42+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,46 +19,46 @@ msgstr ""
 
 #: ../../api/usb/libloader/index.rst:2
 msgid ":py:mod:`usb.libloader`"
-msgstr ""
+msgstr ":py:mod:`usb.libloader`"
 
 #: ../../api/usb/libloader/index.rst:8
 msgid "Module Contents"
-msgstr ""
+msgstr "Module Contents"
 
 #: ../../api/usb/libloader/index.rst:12
 msgid "Functions"
-msgstr ""
+msgstr "関数"
 
 #: ../../api/usb/libloader/index.rst:14
 msgid "usb.libloader.locate_library"
-msgstr ""
+msgstr "usb.libloader.locate_library"
 
 #: ../../api/usb/libloader/index.rst:15
 msgid "usb.libloader.load_library"
-msgstr ""
+msgstr "usb.libloader.load_library"
 
 #: ../../api/usb/libloader/index.rst:16
 msgid "usb.libloader.load_locate_library"
-msgstr ""
+msgstr "usb.libloader.load_locate_library"
 
 #: ../../api/usb/libloader/index.rst:22
 msgid "Bases: :py:obj:`OSError`"
-msgstr ""
+msgstr "Bases: :py:obj:`OSError`"
 
 #: ../../api/usb/libloader/index.rst:24 ../../api/usb/libloader/index.rst:31
 #: ../../api/usb/libloader/index.rst:38 ../../api/usb/libloader/index.rst:45
 #: ../../api/usb/libloader/index.rst:52
 msgid "Base class for I/O related errors."
-msgstr ""
+msgstr "I/O関連エラーの基本クラス。"
 
 #: ../../api/usb/libloader/index.rst:29 ../../api/usb/libloader/index.rst:43
 #: ../../api/usb/libloader/index.rst:50
 msgid "Bases: :py:obj:`LibraryException`"
-msgstr ""
+msgstr "Bases: :py:obj:`LibraryException`"
 
 #: ../../api/usb/libloader/index.rst:36
 msgid "Bases: :py:obj:`LibraryNotFoundException`"
-msgstr ""
+msgstr "Bases: :py:obj:`LibraryNotFoundException`"
 
 #: ../../api/usb/libloader/index.rst:57
 msgid ""
@@ -67,15 +66,15 @@ msgid ""
 "find_library() function (or ctypes.util.find_library). Returns the first "
 "library found, which can be the library's name or the path to the library "
 "file, depending on find_library(). Returns None if no library is found."
-msgstr ""
+msgstr "指定のfind_library()関数(またはctypes.util.find_library)を使用して、候補にリストされているライブラリを見つけようとします。最初に見つかったライブラリを返します。これは、find_library()に応じて、ライブラリの名前またはライブラリファイルへのパスになります。ライブラリが見つからない場合はNoneを返します。"
 
 #: ../../api/usb/libloader/index.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../api/usb/libloader/index.rst:63
 msgid "iterable with library names"
-msgstr ""
+msgstr "ライブラリ名達の反復可能オブジェクト(iterable)"
 
 #: ../../api/usb/libloader/index.rst:64
 msgid ""
@@ -83,98 +82,98 @@ msgid ""
 "str if a library has been found. Any \"false\" value (None,False,empty str) "
 "is interpreted as \"library not found\". Defaults to ctypes.util."
 "find_library if not given or None."
-msgstr ""
+msgstr "1つの位置引数(候補)を受け取り、ライブラリが見つかった場合に空でないstrを返す関数。\"false\"値(None、False、empty str)は、「ライブラリが見つからなかった」と解釈されます。指定されていない場合、またはNoneの場合、デフォルトはctypes.util.find_libraryです。"
 
 #: ../../api/usb/libloader/index.rst:74
 msgid "Loads a library. Catches and logs exceptions."
-msgstr ""
+msgstr "ライブラリをロードします。例外をキャッチしてログに記録します。"
 
 #: ../../api/usb/libloader/index.rst:0
 msgid "Returns"
-msgstr ""
+msgstr "Returns"
 
 #: ../../api/usb/libloader/index.rst:76
 msgid "the loaded library or None"
-msgstr ""
+msgstr "ロードしたライブラリまたはNone"
 
 #: ../../api/usb/libloader/index.rst:78
 msgid "path to/name of the library to be loaded"
-msgstr ""
+msgstr "ロードしたライブラリへのパス名"
 
 #: ../../api/usb/libloader/index.rst:79
 msgid "the library's identifier (for logging) Defaults to None."
-msgstr ""
+msgstr "ライブラリの識別子(identifier)(ロギング用)。デフォルトはNoneです。"
 
 #: ../../api/usb/libloader/index.rst:81
 msgid "library class. Defaults to None (-> ctypes.CDLL)."
-msgstr ""
+msgstr "ライブラリクラス。デフォルトはNone (→ ctypes.CDLL)"
 
 #: ../../api/usb/libloader/index.rst:86
 msgid "Locates and loads a library."
-msgstr ""
+msgstr "ライブラリのロードと配置"
 
 #: ../../api/usb/libloader/index.rst:88
 msgid "the loaded library"
-msgstr ""
+msgstr "ロードされたライブラリ"
 
 #: ../../api/usb/libloader/index.rst:90
 msgid "candidates list for locate_library()"
-msgstr ""
+msgstr "locate_library()の為の候補リスト"
 
 #: ../../api/usb/libloader/index.rst:91
 msgid "name of the cygwin library"
-msgstr ""
+msgstr "cygwinライブラリの名前"
 
 #: ../../api/usb/libloader/index.rst:92
 msgid "lib identifier (for logging). Defaults to None."
-msgstr ""
+msgstr "lib識別子(identifier)(ロギング用)。デフォルトはNone。"
 
 #: ../../api/usb/libloader/index.rst:93
 msgid ""
 "class that is used to instantiate the library on win32 platforms. Defaults "
 "to None (-> ctypes.CDLL)."
-msgstr ""
+msgstr "win32プラットフォームでライブラリをインスタンス化するために使用されるクラス。デフォルトはNoneです。(→ ctypes.CDLL)"
 
 #: ../../api/usb/libloader/index.rst:95
 msgid "library class for cygwin platforms. Defaults to None (-> ctypes.CDLL)."
-msgstr ""
+msgstr "cygwinプラットフォーム用のライブラリクラス。デフォルトはNoneです。(→ ctypes.CDLL)"
 
 #: ../../api/usb/libloader/index.rst:97
 msgid ""
 "library class for all other platforms. Defaults to None (-> ctypes.CDLL)."
-msgstr ""
+msgstr "他のすべてのプラットフォーム用のライブラリクラス。デフォルトはNone (→ ctypes.CDLL)"
 
 #: ../../api/usb/libloader/index.rst:99
 msgid "see locate_library(). Defaults to None."
-msgstr ""
+msgstr "locate_library()参照。デフォルトはNone。"
 
 #: ../../api/usb/libloader/index.rst:0
 msgid "check_symbols"
-msgstr ""
+msgstr "check_symbols"
 
 #: ../../api/usb/libloader/index.rst:100
 msgid ""
 "either None or a list of symbols that the loaded lib must provide "
 "(hasattr(<>)) in order to be considered valid. "
 "LibraryMissingSymbolsException is raised if any symbol is missing."
-msgstr ""
+msgstr "None、またはロードされたライブラリが有効と見なされるために提供する必要のあるシンボルのリスト(hasattr(<>))のいずれか。 LibraryMissingSymbolsExceptionは、シンボルが欠落している場合に発生(raise)します。"
 
 #: ../../api/usb/libloader/index.rst:0
 msgid "raises"
-msgstr ""
+msgstr "raises"
 
 #: ../../api/usb/libloader/index.rst:105
 msgid "NoLibraryCandidatesException"
-msgstr ""
+msgstr "NoLibraryCandidatesException"
 
 #: ../../api/usb/libloader/index.rst:106
 msgid "LibraryNotFoundException"
-msgstr ""
+msgstr "LibraryNotFoundException"
 
 #: ../../api/usb/libloader/index.rst:107
 msgid "LibraryNotLoadedException"
-msgstr ""
+msgstr "LibraryNotLoadedException"
 
 #: ../../api/usb/libloader/index.rst:108
 msgid "LibraryMissingSymbolsException"
-msgstr ""
+msgstr "LibraryMissingSymbolsException"

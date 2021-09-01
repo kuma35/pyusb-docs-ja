@@ -461,7 +461,7 @@ Attributes
    .. py:method:: getString(self, index, length, langid=None)
 
       Retrieve the string descriptor specified by index
-          and langid from a device.
+      and langid from a device.
 
       :param index: index of descriptor in the device.
       :param length: number of bytes of the string (ignored)
@@ -483,7 +483,7 @@ Attributes
    .. py:method:: detachKernelDriver(self, interface)
 
       Detach a kernel driver from the interface (if one is attached,
-          we have permission and the operation is supported by the OS)
+      we have permission and the operation is supported by the OS)
 
       :param interface: interface number or an Interface object.
 
